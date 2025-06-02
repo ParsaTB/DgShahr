@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راهنما</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="stylesheet" href="../../src/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- RTL Div -->
+    <div class="rtl">
+        <!-- Navbar Section -->
+        <nav id="navbar"
+            class="w-full top-0 sticky z-[100] px-3 py-3 desktop:px-16 lg:px-20 flex justify-between items-center bg-primary-500 duration-100 transition-all lg:bg-white lg:shadow">
+            <div class="contents lg:w-[1156px] lg:flex mx-auto">
+                <!-- Right Side -->
+                <div class="flex items-center lg:flex-1">
+                    <!-- Menu Drawer Mobile -->
+                    <div class="flex lg:hidden justify-center items-center">
+                        <button aria-label="menu" name="menu">
+                            <svg id="menu-mobile" class="fill-current text-white" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20 18C20.5523 18 21 18.4477 21 19C21 19.5128 20.614 19.9355 20.1166 19.9933L20 20H4C3.44772 20 3 19.5523 3 19C3 18.4872 3.38604 18.0645 3.88338 18.0067L4 18H20ZM20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H20ZM20 4C20.5523 4 21 4.44772 21 5C21 5.55228 20.5523 6 20 6H4C3.44772 6 3 5.55228 3 5C3 4.44772 3.44772 4 4 4H20Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+
+                        <a class="relative w-[94px] h-[18px] desktop:w-[166px] desktop:h-8 mx-4 lg:me-8" href="../index.html">
+                            <img id="mobile-logo" alt="logo" loading="lazy" decoding="async" data-nimg="fill"
+                                style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; filter: brightness(0) invert(1);"
+                                sizes="100vw" src="../../Images/Logos/logo.webp">
+                        </a>
+
+                        <div id="menu-container"
+                            class="bg-black/50 fixed top-0 left-0 right-0 bottom-0 z-10 transition-opacity duration-200 ease-in-out opacity-0 pointer-events-none">
+                            <button id="closeBtn"
+                                class="absolute z-40 p-3 bg-white rounded-lg left-3 top-5 mgc_close_line w-min"
+                                aria-label="close" name="close">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.00073 9.41391L13.6575 15.0708C14.048 15.4613 14.6812 15.4613 15.0717 15.0708C15.4622 14.6802 15.4622 14.0471 15.0717 13.6565L9.41493 7.99971L15.0717 2.34286C15.4622 1.95234 15.4622 1.31917 15.0717 0.928652C14.6812 0.538122 14.048 0.538122 13.6575 0.928652L8.00073 6.58551L2.34382 0.928632C1.9533 0.538112 1.32013 0.538112 0.929609 0.928632C0.539089 1.31916 0.539089 1.95232 0.929609 2.34285L6.58643 7.99971L0.929609 13.6566C0.539089 14.0471 0.539089 14.6802 0.929609 15.0708C1.32013 15.4613 1.9533 15.4613 2.34382 15.0708L8.00073 9.41391Z"
+                                        fill="#475569"></path>
+                                </svg>
+                            </button>
+
+                            <aside id="aside-container"
+                                class="fixed top-0 bottom-0 right-0 bg-white z-[102] w-72 max-w-full transition-transform duration-200 md:drop-shadow-md space-y-1 translate-x-full">
+                                <div class="flex items-center justify-between w-full px-3 py-4 border-b border-black/5">
+                                    <img alt="logo" loading="lazy" width="166" height="32" decoding="async"
+                                        data-nimg="1" class="ms-4" style="color:transparent"
+                                        src="../../Images/Logos/logo.webp">
+                                </div>
+
+                                <ul class="flex flex-col font-regular justify-between mt-[3rem] md:mt-[3.75rem]">
+                                    <li class="list-none border-b border-black/5 font-p-3-medium">
+                                        <a class="block w-full h-full px-3 py-5" href="#">فروشگاه دیجی‌شهر
+                                        </a>
+                                    </li>
+
+                                    <li class="list-none border-b border-black/5 font-p-3-medium">
+                                        <a class="block w-full h-full px-3 py-5" href="#">راهنمای دریافت وام
+                                        </a>
+                                    </li>
+
+                                    <li class="list-none border-b border-black/5 font-p-3-medium">
+                                        <a class="block w-full h-full px-3 py-5" href="#">بلاگ
+                                        </a>
+                                    </li>
+
+                                    <li class="list-none border-b border-black/5 font-p-3-medium"><a
+                                            class="block w-full h-full px-3 py-5" href="#">سوالات متداول
+                                        </a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+
+                    <!-- Logo Link -->
+                    <a href="../index.html"
+                        class="relative w-[94px] h-[18px] desktop:w-[166px] desktop:h-8 mx-4 lg:me-8 lg:block max-lg:hidden">
+                        <img alt="logo" loading="lazy" decoding="async" data-nimg="fill"
+                            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; filter: none;"
+                            sizes="100vw" src="../../Images/Logos/logo.webp">
+                    </a>
+
+                    <!-- Menu Items Desktop -->
+                    <menu id="main" class="hidden font-bold text-sm h-12 items-center gap-8 lg:flex">
+                        <li
+                            class="relative transition-all font-button-medium text-gray-500 duration-600 hover:text-blue-500">
+                            <a class="after:absolute after:-bottom-4 after:left-0 block after:block after:w-full after:scale-0 after:border-b-[3px] after:border-b-blue-500 after:border-solid after:pt-1 after:transition-all after:ease-in-out menu-link after:border-blue after:duration-600 hover:after:scale-100"
+                                href="#">فروشگاه دیجی‌شهر
+                            </a>
+                        </li>
+                        <li
+                            class="relative transition-all font-button-medium text-gray-500 duration-600 hover:text-blue-500">
+                            <a class="after:absolute after:-bottom-4 after:left-0 block after:block after:w-full after:scale-0 after:border-b-[3px] after:border-b-blue-500 after:border-solid after:pt-1 after:transition-all after:ease-in-out menu-link after:border-blue after:duration-600 hover:after:scale-100"
+                                href="#">راهنمای دریافت وام
+                            </a>
+                        </li>
+                        <li
+                            class="relative transition-all font-button-medium text-gray-500 duration-600 hover:text-blue-500">
+                            <a class="after:absolute after:-bottom-4 after:left-0 block after:block after:w-full after:scale-0 after:border-b-[3px] after:border-b-blue-500 after:border-solid after:pt-1 after:transition-all after:ease-in-out menu-link after:border-blue after:duration-600 hover:after:scale-100"
+                                href="#">بلاگ
+                            </a>
+                        </li>
+                        <li
+                            class="relative transition-all font-button-medium text-gray-500 duration-600 hover:text-blue-500">
+                            <a class="after:absolute after:-bottom-4 after:left-0 block after:block after:w-full after:scale-0 after:border-b-[3px] after:border-b-blue-500 after:border-solid after:pt-1 after:transition-all after:ease-in-out menu-link after:border-blue after:duration-600 hover:after:scale-100"
+                                href="#">سوالات متداول
+                            </a>
+                        </li>
+                    </menu>
+                </div>
+
+                <a href="#">
+                    <button id="header-loan-btn-mobile"
+                        class="rounded-lg py-2 font-button-medium min-w-max transition-all duration-300 border-2 bg-white text-black border-transparent block lg:hidden !px-6 h-9">
+                        <div class="text-right text-[13px] font-bold leading-none">
+                            درخواست وام
+                        </div>
+                    </button>
+                </a>
+
+                <a href="#" class="justify-center items-center lg:flex hidden">
+                    <button
+                        class="rounded-lg py-3 px-10 font-bold text-sm min-w-max transition-all duration-300 border-2 bg-primary-500 text-white border-transparent hidden lg:block"
+                        id="header-loan-cta">
+                        درخواست وام
+                    </button>
+                </a>
+            </div>
+        </nav>
+
+        <main class="p-0 desktop:pt-10 lg:mx-auto lg:max-w-[1156px] font-regular">
+
+            <!-- Header Div Section -->
+            <div class="relative mb-0 lg:mb-10">
+                <div
+                    class="z-0 flex justify-between items-start w-full px-4 text-white bg-arch-linear arch-curve max-desktop:arch-curve-desktop md:px-6 lg:px-10">
+                    <div
+                        class="flex flex-col items-center w-full py-8 justify-center space-y-2 font-regular desktop:font-bold text-lg desktop:text-2xl">
+                        <div class="block">
+                            <p class="relative">
+                                راهنما
+
+                                <span
+                                    class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                            </p>
+                        </div>
+
+                        <!-- Arrow Div -->
+                        <div class="flex items-center justify-center py-1">
+                            <span class="animate-shake-vertical">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29"
+                                    fill="none">
+                                    <path d="M8.16602 8.66504L13.9993 14.4984L19.8327 8.66504" stroke="#4C6EE5"
+                                        stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M8.16602 15.665L13.9993 21.4984L19.8327 15.665" stroke="#7590EB"
+                                        stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Body Section -->
+            <div class="space-y-16">
+                <div class="mx-auto flex flex-col justify-center gap-4 px-4 pb-16 max-w-[600px]">
+                    <!-- Image Div Section -->
+                    <div class="relative w-full aspect-[5/4]">
+                        <button>
+                            <img alt="guide-video" loading="lazy" decoding="async" data-nimg="fill" sizes="100vw"
+                                src="../../Images/Images/video_cover.webp"
+                                style="position: absolute; height: 100%; width: 100%; inset: 0px; object-fit: contain; color: transparent;">
+                        </button>
+                    </div>
+
+                    <p
+                        class="text-base font-regular leading-7 text-center desktop:text-right text-slate-700 flex-grow-1">
+                        برای اطلاع از نحوه ثبت درخواست وام، اعتبارسنجی، ضمانت‌ها، خرید از فروشگاه و امکانات دیگر
+                        دیجی‌شهر ویدئو را مشاهده کنید.
+                    </p>
+                </div>
+            </div>
+
+            <section class="space-y-6 px-0">
+                <!-- Header Div Section -->
+                <div
+                    class="flex flex-col items-center w-full py-8 justify-center space-y-2 font-bold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            مدارک درخواست وام
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29"
+                                fill="none">
+                                <path d="M8.16602 8.66504L13.9993 14.4984L19.8327 8.66504" stroke="#4C6EE5"
+                                    stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M8.16602 15.665L13.9993 21.4984L19.8327 15.665" stroke="#7590EB"
+                                    stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                    </div>
+
+                </div>
+
+                <!-- Content Div Section -->
+                <div class="block">
+                    <div
+                        class="flex flex-col md:flex-row items-start w-full gap-2 mx-auto overflow-hidden md:overflow-visible">
+                        <!-- Tabs Section Div -->
+                        <div id="tab-buttons-container"
+                            class="flex flex-row w-full gap-5 overflow-x-scroll desktop:overflow-x-auto desktop:w-[270px] transition-all duration-700 ease-in-out md:flex-col md:w-auto scrollbar-hidden">
+                            <button data-tab="identity"
+                                class="tab-buttons active-tab-madarek border-primary-50 font-bold p-4 rounded-xl border relative shrink-0 md:shrink">
+                                <div id="after-div-identity"
+                                    class="after-div flex gap-x-2 items-center">
+                                    <span class="duration-300 transition-all ease-in-out rotate-12">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg" width="43" height="35"
+                                            viewBox="0 0 43 35" fill="none">
+                                            <path
+                                                d="M10.8854 19.1448C11.2628 13.3865 11.4515 10.5074 13.3576 8.8358C15.2638 7.16419 18.1429 7.3529 23.9011 7.73033L30.0087 8.13065C35.767 8.50808 38.6461 8.6968 40.3177 10.6029C41.9893 12.509 41.8006 15.3882 41.4232 21.1464C41.0457 26.9047 40.857 29.7838 38.9509 31.4554C37.0448 33.127 34.1657 32.9383 28.4074 32.5609L22.2999 32.1606C16.5416 31.7831 13.6625 31.5944 11.9909 29.6883C10.3192 27.7822 10.508 24.9031 10.8854 19.1448Z"
+                                                fill="#C8D3F7"></path>
+                                            <path
+                                                d="M4.40936 19.6654C3.52896 13.9623 3.08876 11.1108 4.58697 9.06559C6.08517 7.02037 8.9367 6.58017 14.6398 5.69977L20.6888 4.76596C26.3918 3.88555 29.2434 3.44535 31.2886 4.94356C33.3338 6.44177 33.774 9.2933 34.6544 14.9964C35.5348 20.6994 35.975 23.5509 34.4768 25.5962C32.9786 27.6414 30.1271 28.0816 24.424 28.962L18.375 29.8958C12.6719 30.7762 9.82041 31.2164 7.77519 29.7182C5.72997 28.22 5.28977 25.3685 4.40936 19.6654Z"
+                                                fill="#2852E4"></path>
+                                            <path d="M28.6907 14.4033L23.3767 15.2199" stroke="white"
+                                                stroke-width="1.73611" stroke-linecap="round"></path>
+                                            <path d="M28.0745 10.4316L21.432 11.4524" stroke="white"
+                                                stroke-width="1.73611" stroke-linecap="round"></path>
+                                            <path d="M29.3066 18.375L25.3211 18.9874" stroke="white"
+                                                stroke-width="1.73611" stroke-linecap="round"></path>
+                                            <ellipse cx="2.48509" cy="2.4779" rx="2.48509" ry="2.4779"
+                                                transform="matrix(0.988398 -0.151885 0.15325 0.988187 11.3433 12.3291)"
+                                                stroke="white" stroke-width="1.73611" stroke-linecap="round"></ellipse>
+                                            <path
+                                                d="M20.2319 20.9935C20.4416 22.3459 20.6116 23.4422 15.6991 24.1971C10.7866 24.9519 10.6166 23.8557 10.4068 22.5033C10.1971 21.151 12.2265 19.7167 14.9396 19.2998C17.6527 18.8829 20.0221 19.6412 20.2319 20.9935Z"
+                                                stroke="white" stroke-width="1.73611" stroke-linecap="round"></path>
+                                        </svg>
+                                    </span>
+                                    <p class="w-max">مدارک هویتی</p>
+                                </div>
+                            </button>
+
+                            <button data-tab="location"
+                                class="tab-buttons border-primary-50 text-gray-700 font-bold p-4 rounded-xl border relative shrink-0 md:shrink ">
+                                <div id="after-div-loc"
+                                    class="after-div flex gap-x-2 items-center">
+                                    <span class="duration-300 transition-all ease-in-out rotate-12">
+                                        <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.1108 36.8686C12.3831 37.1945 14.1008 37.3345 16.4666 37.5274L28.6805 38.5235C32.9987 38.8756 35.1579 39.0517 36.6088 37.8196C38.0597 36.5874 38.2357 34.4283 38.5879 30.1101L38.8369 27.0566C39.189 22.7383 39.3651 20.5792 38.133 19.1283C36.9264 17.7075 34.831 17.5092 30.6896 17.1709C30.831 17.6837 30.979 18.2361 31.1383 18.8306L31.9312 21.7898C33.0526 25.9748 33.6133 28.0673 32.6615 29.7157C31.7098 31.3642 29.6173 31.9249 25.4323 33.0462L13.5955 36.2179C12.6711 36.4656 11.8488 36.6859 11.1108 36.8686Z" fill="#C8D3F7"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12.1378 14.6537C13.3327 17.5044 15.4789 20.0742 18.3674 21.3231C19.7373 21.9153 21.3052 21.9153 22.675 21.3231C26.0413 19.8676 28.3994 16.6181 29.4185 13.2207C30.1348 14.4339 30.6287 16.277 31.363 19.0173L32.1559 21.9765C33.2772 26.1615 33.8379 28.254 32.8862 29.9024C31.9344 31.5509 29.842 32.1116 25.657 33.2329L13.8201 36.4046C9.63518 37.526 7.5427 38.0866 5.89424 37.1349C4.24578 36.1832 3.6851 34.0907 2.56374 29.9057L1.77083 26.9465C0.649469 22.7615 0.0887907 20.6691 1.04053 19.0206C1.99227 17.3721 4.08475 16.8115 8.26971 15.6901L12.1378 14.6537Z" fill="#2852E4"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.0538 19.9512C16.6854 20.4411 17.37 20.863 18.104 21.1992L7.20476 24.1196C6.74168 24.2437 6.26569 23.9689 6.14161 23.5058C6.01753 23.0427 6.29234 22.5667 6.75542 22.4427L16.0538 19.9512Z" fill="white"></path><path d="M13.2808 9.21752C13.2808 5.32632 16.631 2.17188 20.7636 2.17188C24.8963 2.17188 28.2465 5.32632 28.2465 9.21752C28.2465 13.0782 25.8582 17.5833 22.132 19.1944C21.2634 19.5699 20.2639 19.5699 19.3953 19.1944C15.669 17.5833 13.2808 13.0782 13.2808 9.21752Z" fill="#2852E4"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M20.7422 8.87771C19.9422 8.87771 19.2937 9.5262 19.2937 10.3261C19.2937 11.1261 19.9422 11.7746 20.7422 11.7746C21.5421 11.7746 22.1906 11.1261 22.1906 10.3261C22.1906 9.5262 21.5421 8.87771 20.7422 8.87771ZM17.5576 10.3261C17.5576 8.56737 18.9834 7.1416 20.7422 7.1416C22.5009 7.1416 23.9267 8.56737 23.9267 10.3261C23.9267 12.0849 22.5009 13.5107 20.7422 13.5107C18.9834 13.5107 17.5576 12.0849 17.5576 10.3261Z" fill="white"></path><path d="M20.7007 28.4039L26.6145 26.8008" stroke="white" stroke-width="1.73611" stroke-linecap="round"></path><path d="M9.06871 30.2779L10.6228 31.0431C10.8378 31.149 11.098 31.0605 11.2039 30.8455L13.4046 26.3762" stroke="white" stroke-width="1.73611" stroke-linecap="round"></path></svg>
+                                    </span>
+                                    <p class="w-max">مدارک سکونتی</p>
+                                </div>
+                            </button>
+
+                            <button data-tab="job"
+                                class="tab-buttons border-primary-50 text-gray-700 font-bold p-4 rounded-xl border relative shrink-0 md:shrink ">
+                                <div id="after-div-job"
+                                    class="after-div flex gap-x-2 items-center ">
+                                    <span class="duration-300 transition-all ease-in-out rotate-12">
+                                        <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.1108 36.8686C12.3831 37.1945 14.1008 37.3345 16.4666 37.5274L28.6805 38.5235C32.9987 38.8756 35.1579 39.0517 36.6088 37.8196C38.0597 36.5874 38.2357 34.4283 38.5879 30.1101L38.8369 27.0566C39.189 22.7383 39.3651 20.5792 38.133 19.1283C36.9264 17.7075 34.831 17.5092 30.6896 17.1709C30.831 17.6837 30.979 18.2361 31.1383 18.8306L31.9312 21.7898C33.0526 25.9748 33.6133 28.0673 32.6615 29.7157C31.7098 31.3642 29.6173 31.9249 25.4323 33.0462L13.5955 36.2179C12.6711 36.4656 11.8488 36.6859 11.1108 36.8686Z" fill="#C8D3F7"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12.1378 14.6537C13.3327 17.5044 15.4789 20.0742 18.3674 21.3231C19.7373 21.9153 21.3052 21.9153 22.675 21.3231C26.0413 19.8676 28.3994 16.6181 29.4185 13.2207C30.1348 14.4339 30.6287 16.277 31.363 19.0173L32.1559 21.9765C33.2772 26.1615 33.8379 28.254 32.8862 29.9024C31.9344 31.5509 29.842 32.1116 25.657 33.2329L13.8201 36.4046C9.63518 37.526 7.5427 38.0866 5.89424 37.1349C4.24578 36.1832 3.6851 34.0907 2.56374 29.9057L1.77083 26.9465C0.649469 22.7615 0.0887907 20.6691 1.04053 19.0206C1.99227 17.3721 4.08475 16.8115 8.26971 15.6901L12.1378 14.6537Z" fill="#2852E4"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.0538 19.9512C16.6854 20.4411 17.37 20.863 18.104 21.1992L7.20476 24.1196C6.74168 24.2437 6.26569 23.9689 6.14161 23.5058C6.01753 23.0427 6.29234 22.5667 6.75542 22.4427L16.0538 19.9512Z" fill="white"></path><path d="M13.2808 9.21752C13.2808 5.32632 16.631 2.17188 20.7636 2.17188C24.8963 2.17188 28.2465 5.32632 28.2465 9.21752C28.2465 13.0782 25.8582 17.5833 22.132 19.1944C21.2634 19.5699 20.2639 19.5699 19.3953 19.1944C15.669 17.5833 13.2808 13.0782 13.2808 9.21752Z" fill="#2852E4"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M20.7422 8.87771C19.9422 8.87771 19.2937 9.5262 19.2937 10.3261C19.2937 11.1261 19.9422 11.7746 20.7422 11.7746C21.5421 11.7746 22.1906 11.1261 22.1906 10.3261C22.1906 9.5262 21.5421 8.87771 20.7422 8.87771ZM17.5576 10.3261C17.5576 8.56737 18.9834 7.1416 20.7422 7.1416C22.5009 7.1416 23.9267 8.56737 23.9267 10.3261C23.9267 12.0849 22.5009 13.5107 20.7422 13.5107C18.9834 13.5107 17.5576 12.0849 17.5576 10.3261Z" fill="white"></path><path d="M20.7007 28.4039L26.6145 26.8008" stroke="white" stroke-width="1.73611" stroke-linecap="round"></path><path d="M9.06871 30.2779L10.6228 31.0431C10.8378 31.149 11.098 31.0605 11.2039 30.8455L13.4046 26.3762" stroke="white" stroke-width="1.73611" stroke-linecap="round"></path></svg>
+                                    </span>
+                                    <p class="w-max">مدارک شغلی</p>
+                                </div>
+                            </button>
+                        </div>
+
+                        <!-- Tab Content -->
+                        <div class="p-4 md:p-6 rounded-xl border border-gray-200 min-h-[450px] overflow-x-hidden w-full">
+                            <!-- Identity Div Section -->
+                            <div id="tab-content-identity" class="identity-div flex flex-col items-start lg:flex-row gap-x-4">
+                                <!-- Heading Div Section -->
+                                <div class="space-y-4">
+                                    <h5 class="font-bold text-base">
+                                        کارت ملی و شناسنامه
+                                    </h5>
+
+                                    <p class="font-regular text-base leading-7">در این صفحه تصویر پشت و رو از کارت ملی و تصویر سه صفحه اول شناسنامه را بارگذاری کنید. دقت کنید عکس باید خوانا و واضح باشد و مدارک بطور کامل در عکس قابل مشاهده باشد.</p>
+                                </div>
+
+                                <!-- Image Div Section -->
+                                <div class="flex justify-center items-center p-4 w-full h-[350px] lg:w-[405px] lg:h-[377px] shrink-0 ">
+                                    <div class="flex flex-col items-center justify-center gap-6 ">
+                                        <div class="block">
+                                            <img alt="identity-document" loading="lazy" width="290" height="225" decoding="async" data-nimg="1" class="" style="color:transparent" src="../../Images/Images/Madarakhoviyati.webp">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Location Div Section -->
+                            <div id="tab-content-location" class="location-div hidden flex-col items-start lg:flex-row gap-x-4">
+                                <!-- Heading Div Section -->
+                                <div class="space-y-4">
+                                    <h5 class="font-bold text-base">
+                                        سند مالکیت یا اجاره نامه محل سکونت
+                                    </h5>
+
+                                    <p class="font-regular text-base leading-7">تصویر سند مالکیت یا اجاره نامه محل سکونت شما برای دریافت وام الزامی است. توجه داشته باشید در صورتی که اجاره‌نامه محل سکونت را بارگذاری می‌کنید تاریخ آن باید معتبر باشد و اجاره‌نامه منقضی نشده باشد.</p>                                </div>
+
+                                <!-- Image Div Section -->
+                                <div class="flex justify-center items-center p-4 w-full h-[350px] lg:w-[405px] lg:h-[377px] shrink-0 ">
+                                    <div class="flex flex-col items-center justify-center gap-6 ">
+                                        <div class="block">
+                                            <img alt="identity-document" loading="lazy" width="290" height="225" decoding="async" data-nimg="1" class="" style="color:transparent" src="../../Images/Images/MadarakSokoonati.webp">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job Div Section -->
+                            <div id="tab-content-job" class="job-div hidden flex-col items-start lg:flex-row gap-x-4">
+                                <!-- Heading Div Section -->
+                                <div class="space-y-4">
+                                    <h5 class="font-bold text-base">
+                                        مدارک شغلی
+                                    </h5>
+
+                                    <h5 class="font-bold text-base text-primary-500" data-header="parvaneKasb">پروانه کسب </h5>
+                                    <h5 class="font-bold hidden text-base text-primary-500" data-header="morefiName">پروانه کسب </h5>
+                                    <h5 class="font-bold hidden text-base text-primary-500" data-header="nezamMohandesi">نظام مهندسی، کارت بازرگانی یا هر مدرکی که دلالت بر درآمد دارد (برای مشاغل آزاد)</h5>
+
+                                    <p class="font-regular text-sm leading-7" data-desc="parvane-kasb">تاسیس هر نوع محل کسب و اشتغال به هر نوع کار فنی، مستلزم داشتن پروانه مربوط به آن است. پروانه کسب، اجازه‌ای است که طبق مقررات قانون نظام صنفی، به منظور شروع و ادامه کسب و کار یا حرفه، به فرد مربوط برای محل مشخص یا وسیله کسب مشخص، داده می‌شود.</p>
+                                    
+                                    <div data-desc="morefiName" class="hidden">
+                                        <p class="font-regular text-sm leading-7">این نامه از جانب سازمانی که شما در آن مشغول به کار هستید <b>خطاب به بانک شهر </b>صادر می‌شود.<br> نمونه متن را میتوانید در تصویر مشاهده کنید<br>نامه حاوی اطلاعات زیر باشد:</p>
+                                        
+                                        <ul class="list-disc list-inside leading-8 marker:text-blue-600 mt-3"><li>نام و نام خانوادگی</li><li>شماره شناسنامه/کدملی</li><li>حقوق و مزایا</li><li>مهر و امضا سازمان</li></ul>
+                                    </div>
+                                    
+                                    <div data-desc="nezamMohandesi" class="hidden">
+                                        <p class="font-regular text-sm leading-7">هر مدرکی که دلالت بر اشتغال بر کار و کسب درامدتان دارد می‌توانید بارگذاری کنید.<br>چند نمونه از مدارک کاری:</p>
+
+                                        <ul class="mt-3 leading-8 list-disc list-inside marker:text-blue-600"><li>نظام مهندسی</li><li>کارت بازرگانی</li><li>مجوز فعالیت</li><li>پروانه کسب</li><br></ul>
+                                    </div>
+                                    
+                                </div>
+
+                                <!-- Image Div Section -->
+                                <div class="flex justify-center items-center p-4 w-full h-[350px] lg:w-full lg:h-[377px] overflow-hidden">
+                                    <div class="slider-container relative flex flex-col items-center justify-center gap-6 touch-pan-y overflow-hidden">
+                                        <div class="slider overflow-x-hidden flex flex-row justify-start items-center relative !w-full !h-full transition-all duration-300 ease-out ">
+                                            <div id="imageSlide1" class="slide object-contain flex shrink-0 grow justify-center items-center select-none">
+                                                <img class=" w-full h-auto max-h-[230px]" alt="identity-document" loading="lazy" decoding="async" data-nimg="1" class="" style="color:transparent" src="../../Images/Images/Madarak201.webp">
+                                            </div>
+                                            <div id="imageSlide2" class="slide object-contain flex shrink-0 grow justify-center items-center select-none">
+                                                <img class=" w-full h-auto max-h-[230px]" alt="identity-document" loading="lazy" decoding="async" data-nimg="1" class="" style="color:transparent" src="../../Images/Images/Madarak202.webp">
+                                            </div>
+                                            <div id="imageSlide3" class="slide object-contain flex shrink-0 grow justify-center items-center select-none">
+                                                <img class=" w-full h-auto max-h-[230px]" alt="identity-document" loading="lazy" decoding="async" data-nimg="1" class="" style="color:transparent" src="../../Images/Images/Madarak203.webp">
+                                            </div>
+                                        </div>
+
+                                        <!-- Right Button Div -->
+                                        <div onclick="nextSlide()" class="absolute left-3 bottom-1/2 p-2 py-1 bg-slate-300 rounded-lg cursor-pointer">
+                                            <i class="ri-arrow-left-s-line text-primary-300 text-xl"></i>
+                                        </div>
+
+                                        <!-- Left Button Div -->
+                                        <div onclick="previousSlide()" class="absolute right-3 bottom-1/2 p-2 py-1 bg-slate-300 rounded-lg cursor-pointer">
+                                            <i class="ri-arrow-right-s-line text-primary-300 text-xl"></i>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="space-y-6">
+                <!-- Header Div Section -->
+                <div
+                    class="flex flex-col items-center w-full py-8 justify-center space-y-2 font-bold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            آموزش مراحل دریافت وام
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29"
+                                fill="none">
+                                <path d="M8.16602 8.66504L13.9993 14.4984L19.8327 8.66504" stroke="#4C6EE5"
+                                    stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M8.16602 15.665L13.9993 21.4984L19.8327 15.665" stroke="#7590EB"
+                                    stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="block">
+                    <div class="w-full mx-auto">
+                        <!-- Buttons Div Section -->
+                        <div id="tab-selector-section" class="flex flex-row border-b border-gray-100 duration-700 transition-all ease-in-out">
+                            <button data-button="darkhast-vam" class="border-b-2 flex-1 border-primary-500 text-gray-700 font-regular py-2">
+                                درخواست وام
+                            </button>
+
+                            <button data-button="darkhast-zemanat" class="flex-1 text-gray-700 font-medium py-2">
+                                درخواست ضمانت
+                            </button>
+                        </div>
+
+                        <!-- Content Div Section -->
+                        <div class="py-4">
+                            <div>
+                                <div class="py-4 mb-16">
+                                    <div id="content-darkhast-vam" class="flex flex-col gap-16">
+                                        <!-- Tab Section Div -->
+                                        <div id="tab-buttons-loan" class="tab-buttons-loan flex items-center gap-4 overflow-x-scroll scrollbar-hidden">
+                                            <!-- Tab Select 1 -->
+                                            <div data-tab-vam="avalie" class="tabs-loan active-tab-loan relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        1
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    اطلاعات اولیه
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab Space Line -->
+                                            <span class="w-14 desktop:w-6 flex-shrink-0 flex-grow bg-slate-200 h-[2px]"></span>
+
+                                            <!-- Tab Select 2 -->
+                                            <div data-tab-vam="darkhast" class="tabs-loan relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        2
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    درخواست وام
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab Space Line -->
+                                            <span class="w-14 desktop:w-6 flex-shrink-0 flex-grow bg-slate-200 h-[2px]"></span>
+
+                                            <!-- Tab Select 3 -->
+                                            <div data-tab-vam="bargozari-m" class="tabs-loan relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        3
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    بارگذاری مدارک
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab Space Line -->
+                                            <span class="w-14 desktop:w-6 flex-shrink-0 flex-grow bg-slate-200 h-[2px]"></span>
+
+                                            <!-- Tab Select 4 -->
+                                            <div data-tab-vam="barresi-m" class="tabs-loan relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        4
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    بررسی مدارک
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab Space Line -->
+                                            <span class="w-14 desktop:w-6 flex-shrink-0 flex-grow bg-slate-200 h-[2px]"></span>
+
+                                            <!-- Tab Select 5 -->
+                                            <div data-tab-vam="tahvil-m" class="tabs-loan relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        5
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    تحویل مدارک
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab Space Line -->
+                                            <span class="w-14 desktop:w-6 flex-shrink-0 flex-grow bg-slate-200 h-[2px]"></span>
+
+                                            <!-- Tab Select 6 -->
+                                            <div data-tab-vam="daryaft" class="tabs-loan relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        6
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    دریافت وام
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Tab Content Section Div -->
+                                        <div class="mx-4">
+                                            <div id="tab-content-avalie" class="avalie flex flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله اول</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">ثبت اطلاعات اولیه</div>
+
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">در قدم اول کدملی، تاریخ تولد و وضعیت شغلی خود را مشخص کنید و بر روی دکمه مرحله بعد کلیک کنید. توجه داشته باشید که کد ملی و شماره تماسی که با آن ثبت نام کرده‌اید هردو باید به نام فرد متقاضی باشد. در قدم دوم رتبه اعتباری، نظام وظیفه و وضعیت چک برگشتی شما اعتبارسنجی می‌شود.</div>
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6  desktop:aspect-[605/389]">
+                                                    <img src="../../Images/Images/Loan20120Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Loan20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="tab-content-darkhast" class="darkhast hidden flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله دوم</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">درخواست وام</div>
+
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">با توجه به اطلاعات مربوط به رتبه اعتبارسنجی و نوع ضمانت انتخابی شما سقف وام مشخص می‌شود. برای انتخاب نوع ضمانت دکمه مشاهده را انتخاب کنید. در صورت انتخاب وام با ضامن، کد ضمانت برای شما نمایش داده می‌شود، آن را برای ضامن خود ارسال کنید تا ضامن شما مدارک خود را از طریق پنل درخواست وام در قسمت شروع ضمانت بارگذاری کند.</div>
+                                                    
+                                                    <div class="text-right text-xl font-bold leading-loose text-blue-700 mt-8 lg:mt-[110px]">ثبت میزان وام درخواستی</div>
+                                                    
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">بعد از انتخاب نوع ضمانت، میزان وام مورد نظر و تعداد ماه برای بازپرداخت اقساط را انتخاب کنید، در این بخش میزان هزینه زیرساخت و عملیات را هم مشاهده خواهید کرد.</div>
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6  desktop:aspect-[605/389]">
+                                                    <img src="../../Images/Images/Loan20220Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Loan20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="tab-content-bargozari-m" class="bargozari-m hidden flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله سوم</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">بارگذاری مدارک</div>
+
+                                                    <div class="text-base font-normal leading-7 text-right text-slate-700">بعد از ثبت درخواست وام اطلاعات تکمیلی مورد نیاز را وارد کنید. در قدم اول اطلاعات هویتی، سپس اطلاعات مربوط به محل سکونت و با توجه به نوع (کارمند یا شغل آزاد) اطلاعات شغلی خود را وارد کنید و در انتها نوع فرآیند تحویل مدارک را انتخاب کنید.</div>
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6  desktop:aspect-[605/389]">
+                                                    <img src="../../Images/Images/Loan20320Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Loan20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="tab-content-barresi-m" class="barresi-m hidden flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله چهارم</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">بررسی مدارک</div>
+
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">در این مرحله درخواست شما ثبت شده و در انتظار بررسی است. مدارک شما طی حداکثر ۲ روز کاری بررسی شده و در صورت تایید به مرحله تحویل مدارک خواهید رفت. در وامی که ضامن داشته باشد شما باید منتظر بمانید تا ضامن هم مدارک را بارگذاری کند و تایید شود.</div>
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6  desktop:aspect-[605/389]">
+                                                    <img src="../../Images/Images/Loan20420Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Loan20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="tab-content-tahvil-m" class="tahvil-m hidden flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله پنجم</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">تحویل مدارک</div>
+
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">در صورت تایید به مرحله تحویل مدارک می‌روید که با توجه به نوع انتخاب فرایند، به شعبه انتخابی مراجعه کرده و یا برای تحویل مدارک تیم پشتیبانی با شما تماس خواهند گرفت.</div>
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6  desktop:aspect-[605/389]">
+                                                    <img src="../../Images/Images/Loan20520Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Loan20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="tab-content-daryaft" class="daryaft hidden flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله ششم</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">دریافت وام</div>
+
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">در صورت تایید به مرحله تحویل مدارک می‌روید که با توجه به نوع انتخاب فرایند، به شعبه انتخابی مراجعه کرده و یا برای تحویل مدارک تیم پشتیبانی با شما تماس خواهند گرفت.</div>
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6  desktop:aspect-[605/389]">
+                                                    <img src="../../Images/Images/Loan20620Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Loan20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="content-darkhast-zemanat" class="hidden flex-col gap-16">
+                                        <!-- Tab Section Div -->
+                                        <div id="tab-buttons-zemanat" class="tab-buttons-zemanat flex items-center gap-4 overflow-x-scroll scrollbar-hidden">
+                                            <!-- Tab Select 1 -->
+                                            <div data-tab-zemanat="avalie" class="tabs-zemanat active-tab-loan relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        1
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    اطلاعات اولیه
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab Space Line -->
+                                            <span class="w-14 desktop:w-6 flex-shrink-0 flex-grow bg-slate-200 h-[2px]"></span>
+
+                                            <!-- Tab Select 2 -->
+                                            <div data-tab-zemanat="bargozari-m" class="tabs-zemanat relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        2
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    بارگذاری مدارک
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab Space Line -->
+                                            <span class="w-14 desktop:w-6 flex-shrink-0 flex-grow bg-slate-200 h-[2px]"></span>
+
+                                            <!-- Tab Select 3 -->
+                                            <div data-tab-zemanat="barresi-m" class="tabs-zemanat relative flex-shrink-0 select-none flex-grow-0 items-center rounded-2xl py-4 pr-8 mr-4 pl-4 cursor-pointer bg-slate-100">
+                                                <div class="numberContainer absolute top-[50%] -right-4 items-center justify-center rounded-xl p-1.5 -translate-y-1/2 bg-gray-200">
+                                                    <div class="numberDiv flex h-6 w-6 items-center justify-center text-center text-lg font-bold-yekan leading-9 text-gray-400">
+                                                        3
+                                                    </div>
+                                                </div>
+
+                                                <div class="titleDiv text-right text-sm font-semibold leading-normal text-gray-400">
+                                                    بارگذاری مدارک
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Tab Content Section Div -->
+                                        <div class="mx-4">
+                                            <div id="tab-zemanat-avalie" class="avalie flex flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله اول</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">شروع ضمانت</div>
+
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">بعد از وارد کردن شماره تلفن همراه برای شما کد یک بار مصرف ارسال می‌شود، بعد از وارد کردن آن وارد پنل <a>درخواست وام دیجی‌شهر</a> خود می‌شوید، روی قسمت شروع ضمانت کلیک کنید و کد ضمانتی را که از درخواست کننده وام دریافت کرده‌اید را وارد کرده و دکمه بررسی را بزنید، و بعد از مشاهده اطلاعات درخواست کننده وام در صورت تایید روی دکمه شروع ضمانت کلیک کنید.</div>
+                                                    
+                                                    <div class="text-right text-xl font-bold leading-loose text-blue-700 mt-8 lg:mt-[110px]">ثبت میزان وام درخواستی</div>
+                                                    
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">بعد از انتخاب نوع ضمانت، میزان وام مورد نظر و تعداد ماه برای بازپرداخت اقساط را انتخاب کنید، در این بخش میزان هزینه زیرساخت و عملیات را هم مشاهده خواهید کرد.</div>
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6 aspect-[320/407] desktop:aspect-[55/61]">
+                                                    <img src="../../Images/Images/Guarantor20120Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Guarantor20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="tab-zemanat-bargozari-m" class="bargozari-m hidden flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله دوم</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">بارگذاری مدارک</div>
+
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">بعد از تایید اعتبارسنجی اطلاعات تکمیلی مورد نیاز را وارد کنید. در قدم اول اطلاعات هویتی، سپس اطلاعات مربوط به محل سکونت و با توجه به نوع (کارمند یا شغل آزاد) اطلاعات شغلی خود را وارد کنید.</div>
+
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6  desktop:aspect-[605/389]">
+                                                    <img src="../../Images/Images/Guarantor20220Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Guarantor20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="tab-zemanat-barresi-m" class="barresi-m hidden flex-col desktop:flex-row gap-8">
+                                                <!-- Title & Description Div Section -->
+                                                <div class="flex flex-col gap-2 desktop:flex-1">
+                                                    <div class="text-xl font-bold leading-loose text-blue-700">مرحله سوم</div>
+
+                                                    <div class="text-xl font-bold leading-loose text-right text-blue-700">بررسی مدارک</div>
+
+                                                    <div class="text-base font-regular leading-7 text-right text-slate-700">در این مرحله درخواست شما ثبت شده و در انتظار بررسی است.</div>
+                                                </div>
+
+                                                <!-- Image Div Container Section -->
+                                                <div class="relative desktop:flex-1 rounded-2xl border border-slate-300 p-6  desktop:aspect-[605/389]">
+                                                    <img src="../../Images/Images/Guarantor20320Desktop.webp" class="desktop:block max-desktop:hidden" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" alt="loan">
+
+                                                    <div class="relative flex flex-col items-center justify-center gap-1 desktop:hidden">
+                                                        <div class="block">
+                                                            <img width="604" height="605" class="bg-white text-transparent" src="../../Images/Images/Guarantor20120Mobile.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="rtl">
+
+        <footer class="bg-gray-100 border-t border-gray-200">
+            <div class="flex flex-col gap-8 desktop:px-[80px] lg:px-0 lg:mx-auto lg:max-w-maxSpace">
+                <!-- Footer Header Div -->
+                <div class="desktop:flex hidden justify-between items-center border-b border-gray-200 py-7">
+                    <!-- Logo Div -->
+                    <div class="block">
+                        <img width="150" height="80" class="mx-4 lg:me-4 text-transparent max-w-full h-auto"
+                            src="../../Images/Logos/logo.webp" alt="dgshahr">
+                    </div>
+    
+                    <div class="flex items-center justify-center gap-8">
+                        <div class="flex items-center justify-center gap-2">
+                            <div class="text-sm font-regular leading-normal text-right text-slate-600">تلفن پشتیبانی
+                            </div>
+    
+                            <div class="text-right text-base font-bold-yekan leading-7 text-slate-700 tracking-[3.20px]">
+                                <a href="tel:021-91001022">
+                                    021-91001022
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="flex items-center justify-center gap-8">
+                            <div class="flex items-center justify-center gap-2">
+                                <a target="_blank" href="https://instagram.com/dgshahr">
+                                    <i class="ri-instagram-fill text-gray-400 text-3xl"></i>
+                                </a>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <a target="_blank" href="https://www.linkedin.com/company/dgshahr/">
+                                    <i class="ri-linkedin-box-fill text-gray-400 text-3xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="flex flex-col gap-8 border-b border-gray-200">
+                    <div class="flex desktop:flex-row flex-col gap-8 mb-8 ">
+                        <!-- Footer Items Div Section -->
+                        <div class="flex flex-col desktop:grow desktop:flex-row">
+                            <!-- Right Side Div Footer -->
+                            <div class="flex flex-col grow justify-stretch font-regular">
+                                <ul class="list-none">
+                                    <div
+                                        class="flex flex-row gap-4 px-4 py-3 pt-5 text-sm font-bold leading-normal text-right grow text-slate-700">
+                                        با دیجی‌شهر
+                                    </div>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    درباره ما
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    فرصت های شغلی
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    تماس با ما
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    بلاگ
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    قوانین و مقررات
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    فروشنده شوید
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                </ul>
+                            </div>
+    
+                            <!-- Left Side Div Footer -->
+                            <div class="flex flex-col grow justify-stretch font-regular">
+                                <ul class="list-none">
+                                    <div
+                                        class="flex flex-row gap-4 px-4 py-3 pt-5 text-sm font-bold leading-normal text-right grow text-slate-700">
+                                        راهنما
+                                    </div>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    سوالات متداول
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    راهنمای دریافت وام دیجی‌شهر
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    محاسبه اقساط
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    شرایط دریافت وام
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a class="w-full" href="#">
+                                            <div class="px-4 py-2">
+                                                <span class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                    مدارک دریافت وام
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <!-- Footer Social Div Section Mobile -->
+                        <div class="w-full flex justify-center items-center desktop:hidden gap-6 px-4">
+                            <div class="flex items-center justify-center gap-2">
+                                <a target="_blank" href="https://instagram.com/dgshahr">
+                                    <i class="ri-instagram-fill text-gray-500 text-3xl"></i>
+                                </a>
+                            </div>
+    
+                            <div class="flex items-center justify-center gap-2">
+                                <a target="_blank" href="https://www.linkedin.com/company/dgshahr/">
+                                    <i class="ri-linkedin-box-fill text-gray-500 text-3xl"></i>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <!-- Footer Contact Div Section Mobile -->
+                        <div class="flex justify-center items-center desktop:hidden gap-6 px-4">
+                            <div class="flex items-center gap-2">
+                                <div class="text-right text-slate-600 text-[13px] font-regular leading-normal">تلفن
+                                    پشتیبانی</div>
+    
+                                <div
+                                    class="text-right text-slate-700 text-sm font-bold-yekan leading-normal tracking-[2.80px]">
+                                    <a href="tel:021-91001022">
+                                        021-91001022
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Logo Div Section -->
+                        <div
+                            class="flex desktop:grow items-center desktop:justify-end justify-center gap-3 desktop:pl-0 px-4">
+                            <div class="items-center justify-center rounded-md border border-slate-200 gap-[5.48px]">
+                                <a href="#">
+                                    <div class="flex h-20 w-20 items-center justify-center">
+                                        <img alt="up-line" loading="lazy" width="80" height="80" decoding="async"
+                                            data-nimg="1" style="color:transparent" src="../../Images/Logos/Samandehi.svg">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="items-center justify-center rounded-md border border-slate-200 gap-[5.48px]">
+                                <a href="#">
+                                    <div class="flex h-20 w-20 items-center justify-center">
+                                        <img alt="up-line" loading="lazy" width="80" height="80" decoding="async"
+                                            data-nimg="1" style="color:transparent" src="../../Images/Logos/Enamad.svg">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="items-center justify-center rounded-md border border-slate-200 gap-[5.48px]">
+                                <a href="https://www.shahr-bank.ir/">
+                                    <div class="flex h-20 w-20 items-center justify-center">
+                                        <img alt="up-line" loading="lazy" width="80" height="80" decoding="async"
+                                            data-nimg="1" style="color:transparent" src="../../Images/Logos/BankShahr.svg">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+
+    <script src="../App.js"></script>
+    <script src="App.js"></script>
+</body>
+
+</html>

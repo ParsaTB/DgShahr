@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .contents {
+        display: contents;
+    }
+
+    .rtl {
+        direction: rtl;
+    }
+
+    .hero-banner-gradient-lg {
+        background-image: radial-gradient(circle at 24% 35%, #3bb8ff, #3bb8ff00 220px);
+    }
+
+    .active-tab-madarek {
+        background-color: rgb(240 243 255); /* Example: change background color */
+        color: #2852e4; /* Example: change text color */
+    }
+    
+
+    .hero-banner-gradient-desk {
+        background-image: radial-gradient(circle at 23% 35%, #3bb8ff, #3bb8ff00 170px);
+    }
+
+    .hero-banner-gradient-md {
+        background-image: radial-gradient(circle at 50% 35%, #3bb8ff, #3bb8ff00 36%);    
+    }
+
+    .hero-banner-gradient-sm {
+        background-image: radial-gradient(circle at 50% 35%, #3bb8ff, #3bb8ff00 40%);    
+    }
+
+    .shadow-btn-hover {
+        --tw-shadow: 0px 0px 20px 0px #f4f7ffb3;
+        --tw-shadow-colored: 0 0 20px 0 var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+
+    .animate-shake-vertical {
+        animation: shake-vertical 10s linear 0s infinite normal none;
+    }
+
+    @keyframes shake-vertical {
+        0% {
+            transform: translateY(0)
+        }
+    
+        10% {
+            transform: translateY(-4px)
+        }
+    
+        20% {
+            transform: translateY(4px)
+        }
+    
+        30% {
+            transform: translateY(-4px)
+        }
+    
+        40% {
+            transform: translateY(4px)
+        }
+    
+        50% {
+            transform: translateY(-4px)
+        }
+    
+        60% {
+            transform: translateY(4px)
+        }
+    
+        70% {
+            transform: translateY(-4px)
+        }
+    
+        80% {
+            transform: translateY(3.2px)
+        }
+    
+        90% {
+            transform: translateY(-3.2px)
+        }
+    
+        to {
+            transform: translateY(0)
+        }
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: 6px solid #07b6d5;
+        width: 24px;
+        height: 24px;
+        color: #ffff;
+        background: #ffff;
+        border-radius: 9999px;
+        direction: rtl;
+    }
+
+    .scrollbar-hidden {
+        scrollbar-width: none;
+    }
+
+    .bg-loan_step-radial-gradient-1 {
+        background-image: radial-gradient(circle at center 25%, #d9333e1a, transparent 20%), radial-gradient(circle at center 75%, #2852e41a, transparent 20%);
+    }
+
+    bg-loan_step-radial-gradient-2 {
+        background-image: radial-gradient(circle at 25% center, #d9333e1a, transparent 20%), radial-gradient(circle at 75% center, #2852e41a, transparent 20%);
+    }
+
+    
+    .step-shadow {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+    }
+
+    .curve {
+        border-bottom-left-radius: 82% 46px;
+        border-bottom-right-radius: 82% 46px;
+    }
+
+    .bg-blog-radial-gradient {
+        background-image: radial-gradient(ellipse at 50% 50%, #d9333e24, transparent 70%);
+    }
+
+    .arch-curve {
+        border-radius: 2rem;
+        border-bottom-left-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+    }
+
+    .bg-arch-linear {
+        background-image: linear-gradient(149deg, #2852e4 19.54%, #18428f 213.03%)
+    }
+
+    .active-tab-loan div .numberDiv {
+        color: #ffff;
+    }
+
+    .active-tab-loan .numberContainer {
+        background-color: rgb(29 78 216);
+    }
+
+    .active-tab-loan .titleDiv {
+        color: rgb(30 64 175);
+    }
+
+    .arch-curve-desktop {
+        border-radius: 0;
+        border-bottom-left-radius: 17rem 2rem;
+        border-bottom-right-radius: 17rem 2rem;
+    }
+}

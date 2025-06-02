@@ -1,0 +1,2291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خرید قسطی با دریافت وام کالا</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../src/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- RTL Div -->
+    <div class="rtl">
+        <!-- Navbar Section -->
+        <nav id="navbar"
+            class="w-full top-0 sticky z-[100] px-3 py-3 desktop:px-16 lg:px-20 flex justify-between items-center bg-primary-500 duration-100 transition-all lg:bg-white lg:shadow">
+            <div class="contents lg:w-[1156px] lg:flex mx-auto">
+                <!-- Right Side -->
+                <div class="flex items-center lg:flex-1">
+                    <!-- Menu Drawer Mobile -->
+                    <div class="flex lg:hidden justify-center items-center">
+                        <button aria-label="menu" name="menu">
+                            <svg id="menu-mobile" class="fill-current text-white" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20 18C20.5523 18 21 18.4477 21 19C21 19.5128 20.614 19.9355 20.1166 19.9933L20 20H4C3.44772 20 3 19.5523 3 19C3 18.4872 3.38604 18.0645 3.88338 18.0067L4 18H20ZM20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H20ZM20 4C20.5523 4 21 4.44772 21 5C21 5.55228 20.5523 6 20 6H4C3.44772 6 3 5.55228 3 5C3 4.44772 3.44772 4 4 4H20Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+
+                        <a  class="relative w-[94px] h-[18px] desktop:w-[166px] desktop:h-8 mx-4 lg:me-8" href="#">
+                            <img id="mobile-logo" alt="logo" loading="lazy" decoding="async" data-nimg="fill" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; filter: brightness(0) invert(1);" sizes="100vw" src="../Images/Logos/logo.webp">
+                        </a>
+
+                        <div id="menu-container"
+                            class="bg-black/50 fixed top-0 left-0 right-0 bottom-0 z-10 transition-opacity duration-200 ease-in-out opacity-0 pointer-events-none">
+                            <button id="closeBtn"
+                                class="absolute z-40 p-3 bg-white rounded-lg left-3 top-5 mgc_close_line w-min"
+                                aria-label="close" name="close">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.00073 9.41391L13.6575 15.0708C14.048 15.4613 14.6812 15.4613 15.0717 15.0708C15.4622 14.6802 15.4622 14.0471 15.0717 13.6565L9.41493 7.99971L15.0717 2.34286C15.4622 1.95234 15.4622 1.31917 15.0717 0.928652C14.6812 0.538122 14.048 0.538122 13.6575 0.928652L8.00073 6.58551L2.34382 0.928632C1.9533 0.538112 1.32013 0.538112 0.929609 0.928632C0.539089 1.31916 0.539089 1.95232 0.929609 2.34285L6.58643 7.99971L0.929609 13.6566C0.539089 14.0471 0.539089 14.6802 0.929609 15.0708C1.32013 15.4613 1.9533 15.4613 2.34382 15.0708L8.00073 9.41391Z"
+                                        fill="#475569"></path>
+                                </svg>
+                            </button>
+
+                            <aside id="aside-container"
+                                class="fixed top-0 bottom-0 right-0 bg-white z-[102] w-72 max-w-full transition-transform duration-200 md:drop-shadow-md space-y-1 translate-x-full">
+                                <div class="flex items-center justify-between w-full px-3 py-4 border-b border-black/5">
+                                    <img alt="logo" loading="lazy" width="166" height="32" decoding="async"
+                                        data-nimg="1" class="ms-4" style="color:transparent"
+                                        src="../Images/Logos/logo.webp">
+                                </div>
+
+                                <ul class="flex flex-col font-regular justify-between mt-[3rem] md:mt-[3.75rem]">
+                                    <li class="list-none border-b border-black/5 font-p-3-medium">
+                                        <a class="block w-full h-full px-3 py-5" href="#">فروشگاه دیجی‌شهر
+                                        </a>
+                                    </li>
+
+                                    <li class="list-none border-b border-black/5 font-p-3-medium">
+                                        <a class="block w-full h-full px-3 py-5" href="Rahnama/index.html">راهنمای دریافت وام
+                                        </a>
+                                    </li>
+
+                                    <li class="list-none border-b border-black/5 font-p-3-medium">
+                                        <a class="block w-full h-full px-3 py-5" href="#">بلاگ
+                                        </a>
+                                    </li>
+
+                                    <li class="list-none border-b border-black/5 font-p-3-medium"><a
+                                            class="block w-full h-full px-3 py-5" href="#">سوالات متداول
+                                        </a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+
+                    <!-- Logo Link -->
+                    <a href="#"
+                        class="relative w-[94px] h-[18px] desktop:w-[166px] desktop:h-8 mx-4 lg:me-8 lg:block max-lg:hidden">
+                        <img alt="logo" loading="lazy" decoding="async" data-nimg="fill"
+                            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; filter: none;"
+                            sizes="100vw" src="../Images/Logos/logo.webp">
+                    </a>
+
+                    <!-- Menu Items Desktop -->
+                    <menu id="main" class="hidden font-bold text-sm h-12 items-center gap-8 lg:flex">
+                        <li
+                            class="relative transition-all font-button-medium text-gray-500 duration-600 hover:text-blue-500">
+                            <a class="after:absolute after:-bottom-4 after:left-0 block after:block after:w-full after:scale-0 after:border-b-[3px] after:border-b-blue-500 after:border-solid after:pt-1 after:transition-all after:ease-in-out menu-link after:border-blue after:duration-600 hover:after:scale-100"
+                                href="#">فروشگاه دیجی‌شهر
+                            </a>
+                        </li>
+                        <li
+                            class="relative transition-all font-button-medium text-gray-500 duration-600 hover:text-blue-500">
+                            <a class="after:absolute after:-bottom-4 after:left-0 block after:block after:w-full after:scale-0 after:border-b-[3px] after:border-b-blue-500 after:border-solid after:pt-1 after:transition-all after:ease-in-out menu-link after:border-blue after:duration-600 hover:after:scale-100"
+                                href="#">راهنمای دریافت وام
+                            </a>
+                        </li>
+                        <li
+                            class="relative transition-all font-button-medium text-gray-500 duration-600 hover:text-blue-500">
+                            <a class="after:absolute after:-bottom-4 after:left-0 block after:block after:w-full after:scale-0 after:border-b-[3px] after:border-b-blue-500 after:border-solid after:pt-1 after:transition-all after:ease-in-out menu-link after:border-blue after:duration-600 hover:after:scale-100"
+                                href="#">بلاگ
+                            </a>
+                        </li>
+                        <li
+                            class="relative transition-all font-button-medium text-gray-500 duration-600 hover:text-blue-500">
+                            <a class="after:absolute after:-bottom-4 after:left-0 block after:block after:w-full after:scale-0 after:border-b-[3px] after:border-b-blue-500 after:border-solid after:pt-1 after:transition-all after:ease-in-out menu-link after:border-blue after:duration-600 hover:after:scale-100"
+                                href="#">سوالات متداول
+                            </a>
+                        </li>
+                    </menu>
+                </div>
+
+                <a href="#">
+                    <button id="header-loan-btn-mobile" class="rounded-lg py-2 font-button-medium min-w-max transition-all duration-300 border-2 bg-white text-black border-transparent block lg:hidden !px-6 h-9">
+                        <div class="text-right text-[13px] font-bold leading-none">
+                            درخواست وام
+                        </div>
+                    </button>
+                </a>
+
+                <a href="#" class="justify-center items-center lg:flex hidden">
+                    <button
+                        class="rounded-lg py-3 px-10 font-bold text-sm min-w-max transition-all duration-300 border-2 bg-primary-500 text-white border-transparent hidden lg:block"
+                        id="header-loan-cta">
+                        درخواست وام
+                    </button>
+                </a>
+            </div>
+        </nav>
+
+        <main class="space-y-20 font-regular">
+            <!-- Hero Section -->
+            <div
+                class="desktop:mx-20 desktop:mt-14 desktop:rounded-t-[40px] lg:mx-auto lg:max-w-[1156px] overflow-hidden">
+                <!-- Hero Section Top -->
+                <div
+                    class="px-4 pt-10 bg-primary-500 md:px-8 desktop:px-12 lg:px-10 lg:hero-banner-gradient-lg desktop:hero-banner-gradient-desk md:hero-banner-gradient-md sm:hero-banner-gradient-sm max-sm:hero-banner-gradient-sm">
+                    <!-- Top Div Section -->
+                    <div class="flex desktop:justify-between">
+                        <!-- Right Side Div -->
+                        <div class="w-full text-right desktop:my-6 lg:my-16 desktop:w-auto">
+                            <!-- Header Div -->
+                            <div
+                                class="text-center text-indigo-50 text-[32px] font-bold leading-[56px] desktop:text-right desktop:text-white desktop:text-5xl desktop:leading-[72px]">
+                                خریدی که اعتبار دارد
+                            </div>
+
+                            <h1
+                                class="mt-1 text-base max-desktop:font-bold leading-7 text-center text-text-primary-50 desktop:text-right desktop:text-white desktop:text-2xl desktop:font-regular desktop:leading-9 desktop:mt-4">
+                                دریافت وام و خرید اقساطی کالا
+                            </h1>
+
+                            <!-- Mobile Image Section -->
+                            <div class="pt-5 desktop:hidden ">
+                                <div class="relative mx-auto aspect-square max-w-[284px]">
+                                    <img style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                        src="../Images/Images/heroImage.webp" alt="heroImage">
+                                </div>
+                            </div>
+
+                            <!-- Buttons Div Section -->
+                            <div
+                                class="flex items-center justify-center mt-6 gap-x-4 desktop:justify-start desktop:mt-10">
+                                <a class="w-full desktop:flex-1 max-w-[200px]" href="#"><button
+                                        class="rounded-lg py-2.5 text-sm px-4 font-bold min-w-max transition-all duration-300 border-2 text-primary-500 bg-white border-transparent hover:bg-primary-50 hover:shadow-btn-hover desktop:px-10 w-full"
+                                        id="hero-loan-cta">ثبت درخواست وام
+                                    </button>
+                                </a>
+
+                                <a class="w-full desktop:flex-1 max-w-[200px]" href="#">
+                                    <button
+                                        class="rounded-lg py-2.5 px-4 text-sm font-bold min-w-max transition-all duration-300  border-2 bg-transparent text-white border-white hover:!bg-primary-300 hover:!text-white desktop:px-10 w-full">فروشگاه
+                                        دیجی‌شهر
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Left Side Div -->
+                        <div class="hidden pl-8 desktop:block">
+                            <img class="lg:w-[427px] desktop:w-[330px] aspect-[106/95] text-transparent"
+                                src="../Images/Images/heroImage.webp" alt="heroImage">
+                        </div>
+                    </div>
+
+                    <!-- Bottom Div Section -->
+                    <div class="block">
+                        <h3 class="mt-8 text-base font-semibold leading-7 text-center text-white">
+                            محاسبه اقساط دیجی‌شهر
+                        </h3>
+
+                        <div class="flex items-center justify-center py-1">
+                            <span class="animate-shake-vertical">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29"
+                                    fill="none">
+                                    <path d="M8.16602 8.66504L13.9993 14.4984L19.8327 8.66504" stroke="#4C6EE5"
+                                        stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M8.16602 15.665L13.9993 21.4984L19.8327 15.665" stroke="#7590EB"
+                                        stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Section Bottom -->
+                <div class="relative px-4 md:px-8 desktop:px-12 lg:px-10 pt-4 min-h-[270px] p-8">
+                    <div
+                        class="absolute top-0 left-0 right-0 h-[270px] rounded-b-[32px] desktop:rounded-b-[60px] bg-primary-500 -z-10">
+                    </div>
+
+                    <div style="border: 1.5px solid #f0f3ff;box-shadow: 0 4px 24px 0 rgba(0, 0, 0, .1);"
+                        class="border border-solid border-primary-50 rounded-3xl bg-white p-8 py-6 px-4 desktop:p-8 ">
+                        <div
+                            class="w-full grid grid-cols-1 gap-4 desktop:gap-x-8 desktop:gap-y-0 desktop:grid-rows-[auto_auto] desktop:grid-cols-[1fr_auto_1fr]">
+                            <div class="flex flex-col gap-6 overflow-hidden">
+                                <!-- Top Side Div Section -->
+                                <div class="flex justify-between flex-col gap-2 overflow-hidden">
+                                    <!-- Top Div Container -->
+                                    <div class="flex flex-col gap-2 overflow-hidden">
+                                        <div class="flex justify-between items-center shrink grow basis-0">
+                                            <div
+                                                class="max-desktop:text-sm font-semibold leading-normal text-right text-gray-800 desktop:text-xl desktop:leading-loose desktop:text-text-primary-700">
+                                                میزان وام درخواستی:
+                                            </div>
+
+                                            <div class="flex items-center justify-between gap-2">
+                                                <div
+                                                    class="text-text-secondary-600 text-xl font-bold leading-loose desktop:text-[37px] desktop:leading-[56px]">
+                                                    <span id="loan-size-text" class="font-bold-yekan">
+                                                        10,000,000
+                                                    </span>
+                                                </div>
+
+                                                <div
+                                                    class="text-base font-semibold leading-7 text-right text-text-secondary-600 desktop:text-xl desktop:font-normal desktop:leading-loose">
+                                                    تومان
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Bottom Div Container -->
+                                    <div class="flex gap-3 pt-3 pb-2 flex-col desktop:flex-row desktop:items-center">
+                                        <div class="w-full px-0 desktop:flex-1 desktop:order-2">
+                                            <label for="loan">
+                                                <input min="10" max="200" step="1" type="range" name="loan" id="loanInp"
+                                                    class="w-full h-[7px] outline-none appearance-none border-none rounded-lg bg-gray-200 focus:text-white hover:text-white">
+                                            </label>
+                                        </div>
+
+                                        <div class="flex items-center justify-between desktop:contents">
+                                            <div
+                                                class="text-slate-500 text-[13px] font-regular-yekan leading-normal desktop:text-base desktop:leading-7 order-2 desktop:order-1">
+                                                10 میلیون
+                                            </div>
+
+                                            <div
+                                                class="text-right text-slate-500 text-[13px] font-regular-yekan leading-normal desktop:text-base desktop:leading-7 order-3">
+                                                200 میلیون
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Bottom Side Div Section -->
+                                <div class="flex flex-col gap-4">
+                                    <h4
+                                        class="text-sm font-semibold leading-normal text-right text-gray-800 desktop:text-text-primary-700 desktop:text-xl desktop:font-bold desktop:leading-loose">
+                                        مدت بازپرداخت:
+                                    </h4>
+
+                                    <div class="block">
+                                        <div class="h-[57px] w-full bg-primary-500">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Loan Application Guide Section -->
+            <section class="space-y-6 md:!mt-12 !mt-8">
+                <!-- Header Section Div -->
+                <div
+                    class="flex flex-col items-center w-full justify-center space-y-2 font-semibold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            راهنمای دریافت وام
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group">
+                                    <path id="Path" d="M8.45117 8.16504L14.2845 13.9984L20.1178 8.16504"
+                                        stroke="#153BBF" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path id="Path_2" d="M8.45117 15.165L14.2845 20.9984L20.1178 15.165"
+                                        stroke="#4C6EE5" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+
+                </div>
+
+                <!-- Items Section Div -->
+                <div class="block">
+                    <div
+                        class="flex flex-col justify-center mx-auto desktop:flex-row items-center lg:gap-20 desktop:gap-10 desktop:space-y-0 space-y-4 lg:w-[1156px]">
+                        <!-- Right Side Div -->
+                        <div class="w-full max-w-[417px] desktop:w-[464px] lg:w-[538px]">
+                            <button>
+                                <img alt="guide-video" loading="lazy" width="538" height="464" decoding="async"
+                                    data-nimg="1" style="color:transparent" sizes="100vw"
+                                    src="../Images/Images/video_cover.webp">
+                            </button>
+                        </div>
+
+                        <!-- Left Side Div -->
+                        <div class="p-5 space-y-8 desktop:max-w-md font-regular desktop:p-0 ">
+                            <p class="text-center desktop:text-right ">
+                                برای اطلاع از نحوه ثبت درخواست وام فوری، فرآیند خرید قسطی از فروشگاه، دریافت وام بدون
+                                ضامن، اعتبارسنجی، ضمانت‌ها و امکانات دیگر دیجی‌شهر ویدئو را مشاهده کنید.
+                            </p>
+
+                            <p class="text-center desktop:text-right">
+                                همچنین برای دریافت اطلاعات بیشتر می‌توانید وارد صفحه <a href="#"
+                                    class="text-primary-500 cursor-pointer">راهنمای دیجی‌شهر</a> شوید.
+                            </p>
+
+                            <a href="#"
+                                class="flex group flex-row justify-center desktop:justify-start w-full text-primary-500 font-bold text-base">
+                                <span class="me-2">
+                                    صفحه راهنمای دیجی&zwnj;شهر
+                                </span>
+
+                                <span
+                                    class="w-5 h-5 flex justify-center items-center desktop:h-6 desktop:w-6 group-hover:-translate-x-1 transition-all duration-100 ease-in translate-x-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path d="M15 6.5L9 12.5L15 18.5" stroke="#2852E4" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products Categorization Section -->
+            <section class="space-y-6">
+                <!-- Header Section Div -->
+                <div
+                    class="flex flex-col items-center w-full justify-center space-y-2 font-semibold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            دسته‌بندی محصولات
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group">
+                                    <path id="Path" d="M8.45117 8.16504L14.2845 13.9984L20.1178 8.16504"
+                                        stroke="#153BBF" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path id="Path_2" d="M8.45117 15.165L14.2845 20.9984L20.1178 15.165"
+                                        stroke="#4C6EE5" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+
+                </div>
+
+                <!-- Items Section Div -->
+                <div class="block">
+                    <div
+                        class="flex lg:justify-center items-center m-auto w-full gap-2 overflow-auto desktop:gap-0 scrollbar-hidden lg:max-w-[1156px] lg:mx-auto">
+                        <!-- Item Row 1 -->
+                        <div class="shrink-0">
+                            <a class="flex flex-col items-center gap-2 px-2" href="#">
+                                <img alt="خرید موبایل قسطی" loading="lazy" width="130" height="230" decoding="async"
+                                    data-nimg="1"
+                                    class="object-contain transition-all duration-150 ease-linear desktop:object-cover hover:scale-105"
+                                    style="color:transparent" src="../Images/Images/category_mobile.webp">
+
+                                <p
+                                    class="px-2 max-desktop:font-regular desktop:font-bold w-max min-w-max text-lg max-desktop:text-base">
+                                    موبایل
+                                </p>
+                            </a>
+                        </div>
+
+                        <!-- Item Row 2 -->
+                        <div class="shrink-0">
+                            <a class="flex flex-col items-center gap-2 px-2" href="#">
+                                <img alt="خرید موبایل قسطی" loading="lazy" width="130" height="230" decoding="async"
+                                    data-nimg="1"
+                                    class="object-contain transition-all duration-150 ease-linear desktop:object-cover hover:scale-105"
+                                    style="color:transparent" src="../Images/Images/Category20Gold.webp">
+
+                                <p
+                                    class="px-2 max-desktop:font-regular desktop:font-bold w-max min-w-max text-lg max-desktop:text-base">
+                                    زیورآلات
+                                </p>
+                            </a>
+                        </div>
+
+                        <!-- Item Row 3 -->
+                        <div class="shrink-0">
+                            <a class="flex flex-col items-center gap-2 px-2" href="#">
+                                <img alt="خرید موبایل قسطی" loading="lazy" width="130" height="230" decoding="async"
+                                    data-nimg="1"
+                                    class="object-contain transition-all duration-150 ease-linear desktop:object-cover hover:scale-105"
+                                    style="color:transparent" src="../Images/Images/category_digital.webp">
+
+                                <p
+                                    class="px-2 max-desktop:font-regular desktop:font-bold w-max min-w-max text-lg max-desktop:text-base">
+                                    کالای دیجیتال
+                                </p>
+                            </a>
+                        </div>
+
+                        <!-- Item Row 4 -->
+                        <div class="shrink-0">
+                            <a class="flex flex-col items-center gap-2 px-2" href="#">
+                                <img alt="خرید موبایل قسطی" loading="lazy" width="130" height="230" decoding="async"
+                                    data-nimg="1"
+                                    class="object-contain transition-all duration-150 ease-linear desktop:object-cover hover:scale-105"
+                                    style="color:transparent" src="../Images/Images/category_motor.webp">
+
+                                <p
+                                    class="px-2 max-desktop:font-regular desktop:font-bold w-max min-w-max text-lg max-desktop:text-base">
+                                    موتور سیکلت
+                                </p>
+                            </a>
+                        </div>
+
+                        <!-- Item Row 5 -->
+                        <div class="shrink-0">
+                            <a class="flex flex-col items-center gap-2 px-2" href="#">
+                                <img alt="خرید موبایل قسطی" loading="lazy" width="130" height="230" decoding="async"
+                                    data-nimg="1"
+                                    class="object-contain transition-all duration-150 ease-linear desktop:object-cover hover:scale-105"
+                                    style="color:transparent" src="../Images/Images/category_furniture.webp">
+
+                                <p
+                                    class="px-2 max-desktop:font-regular desktop:font-bold w-max min-w-max text-lg max-desktop:text-base">
+                                    لوازم خانگی
+                                </p>
+                            </a>
+                        </div>
+
+                        <!-- Item Row 6 -->
+                        <div class="shrink-0">
+                            <a class="flex flex-col items-center gap-2 px-2" href="#">
+                                <img alt="خرید موبایل قسطی" loading="lazy" width="130" height="230" decoding="async"
+                                    data-nimg="1"
+                                    class="object-contain transition-all duration-150 ease-linear desktop:object-cover hover:scale-105"
+                                    style="color:transparent" src="../Images/Images/category_tools.webp">
+
+                                <p
+                                    class="px-2 max-desktop:font-regular desktop:font-bold w-max min-w-max text-lg max-desktop:text-base">
+                                    ابزار صنعتی
+                                </p>
+                            </a>
+                        </div>
+
+                        <!-- Item Row 7 -->
+                        <div class="shrink-0">
+                            <a class="flex flex-col items-center gap-2 px-2" href="#">
+                                <img alt="خرید موبایل قسطی" loading="lazy" width="130" height="230" decoding="async"
+                                    data-nimg="1"
+                                    class="object-contain transition-all duration-150 ease-linear desktop:object-cover hover:scale-105"
+                                    style="color:transparent" src="../Images/Images/category_cosmatic.webp">
+
+                                <p
+                                    class="px-2 max-desktop:font-regular desktop:font-bold w-max min-w-max text-lg max-desktop:text-base">
+                                    آرایشی بهداشتی
+                                </p>
+                            </a>
+                        </div>
+
+                        <!-- Item Row 8 -->
+                        <div class="shrink-0">
+                            <a class="flex flex-col items-center gap-2 px-2" href="#">
+                                <img alt="خرید موبایل قسطی" loading="lazy" width="130" height="230" decoding="async"
+                                    data-nimg="1"
+                                    class="object-contain transition-all duration-150 ease-linear desktop:object-cover hover:scale-105"
+                                    style="color:transparent" src="../Images/Images/category_sport.webp">
+
+                                <p
+                                    class="px-2 max-desktop:font-regular desktop:font-bold w-max min-w-max text-lg max-desktop:text-base">
+                                    ورزش و سفر
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Credit Conditions Section -->
+            <section class="space-y-6">
+                <!-- Header Section Div -->
+                <div
+                    class="flex flex-col items-center w-full justify-center space-y-2 font-semibold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            شرایط دریافت اعتبار
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group">
+                                    <path id="Path" d="M8.45117 8.16504L14.2845 13.9984L20.1178 8.16504"
+                                        stroke="#153BBF" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path id="Path_2" d="M8.45117 15.165L14.2845 20.9984L20.1178 15.165"
+                                        stroke="#4C6EE5" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Items Section Div -->
+                <div class="block">
+                    <div>
+                        <div
+                            class="flex justify-between items-center w-full m-auto overflow-x-auto overflow-y-hidden pe-8 ps-8 scrollbar-hidden lg:max-w-[1156px] lg:mx-auto">
+                            <!-- One Check Div -->
+                            <img alt="وام با چک" loading="lazy" width="300" height="315" decoding="async" data-nimg="1"
+                                class="object-contain -mx-4 transition-all duration-300 cursor-default shrink-0 lg:hover:ease-out lg:hover:scale-105"
+                                style="color:transparent" src="../Images/Images/one_cheque.webp">
+
+                            <!-- Two Check Div -->
+                            <img alt="وام با چک" loading="lazy" width="300" height="315" decoding="async" data-nimg="1"
+                                class="object-contain -mx-4 transition-all duration-300 cursor-default shrink-0 lg:hover:ease-out lg:hover:scale-105"
+                                style="color:transparent" src="../Images/Images/two_cheque.webp">
+
+                            <!-- Third Check Div -->
+                            <img alt="وام با چک" loading="lazy" width="300" height="315" decoding="async" data-nimg="1"
+                                class="object-contain -mx-4 transition-all duration-300 cursor-default shrink-0 lg:hover:ease-out lg:hover:scale-105"
+                                style="color:transparent" src="../Images/Images/card_wage.webp">
+
+                            <!-- Fourth Check Div -->
+                            <img alt="وام با چک" loading="lazy" width="300" height="315" decoding="async" data-nimg="1"
+                                class="object-contain -mx-4 transition-all duration-300 cursor-default shrink-0 lg:hover:ease-out lg:hover:scale-105"
+                                style="color:transparent" src="../Images/Images/card_one_cheque_one_wage.webp">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra Description Div -->
+                <div
+                    class="flex flex-col desktop:flex-row justify-center items-center w-full px-4 desktop:items-baseline">
+                    <p class="text-center text-base desktop:text-right">
+                        میزان سقف دریافت وام بستگی به <b>رتبه اعتباری</b> و <b>نوع ضمانت</b> شما دارد که می&zwnj;تواند
+                        تا <b class="font-bold-yekan">200</b> میلیون تومان باشد.
+                    </p>
+
+                    <a href="#"
+                        class="flex group text-xs flex-row justify-center items-center text-primary-500 font-bold px-5">
+                        <span class="me-2">
+                            ثبت درخواست وام
+                        </span>
+
+                        <span
+                            class="w-5 h-5 flex justify-center items-center desktop:h-5 desktop:w-5 group-hover:-translate-x-1 transition-all duration-100 ease-in translate-x-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24"
+                                fill="none">
+                                <path d="M15 6.5L9 12.5L15 18.5" stroke="#2852E4" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Loan Application Process Section -->
+            <section class="space-y-6 bg-loan_step-radial-gradient-1 md:bg-loan_step-radial-gradient-2">
+                <!-- Header Section Div -->
+                <div
+                    class="flex flex-col items-center w-full justify-center space-y-2 font-semibold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            مراحل درخواست وام
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group">
+                                    <path id="Path" d="M8.45117 8.16504L14.2845 13.9984L20.1178 8.16504"
+                                        stroke="#153BBF" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path id="Path_2" d="M8.45117 15.165L14.2845 20.9984L20.1178 15.165"
+                                        stroke="#4C6EE5" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="pl-4 pr-8 md:px-32 desktop:mx-auto max-w-maxSpace">
+                        <div class="flex flex-col my-16 desktop:gap-10 gap-4">
+                            <!-- Question Container Row 1 -->
+                            <div class="flex flex-col md:w-full md:flex-row gap-4 md:gap-8">
+                                <!-- Question Col 1 -->
+                                <div onclick="openAnswerBox(this)" class="md:flex-1 faq-contaner">
+                                    <div
+                                        class=" relative w-full py-4 pl-4 pr-8 bg-white items-center rounded-2xl step-shadow cursor-pointer">
+                                        <!-- Question Number Div  -->
+                                        <div
+                                            class="p-1.5 bg-blue-700  rounded-xl justify-center items-center absolute top-4 -right-4">
+                                            <div
+                                                class="w-6 h-6 text-center text-white text-lg font-bold-yekan leading-9 flex justify-center items-center select-none">
+                                                1
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Title Div -->
+                                        <div class="flex gap-4 items-center cursor-pointer">
+                                            <!-- Icon Span -->
+                                            <span>
+                                                <img class="text-transparent max-w-full h-auto"
+                                                    src="../Images/Icons/edit_icon.webp" alt="editIcon">
+                                            </span>
+
+                                            <!-- Title Div -->
+                                            <div
+                                                class="question flex-1 select-none text-right text-blue-700 text-sm font-bold leading-normal ">
+                                                ثبت درخواست
+                                            </div>
+
+                                            <!-- Arrow Div -->
+                                            <div
+                                                class="arrow-div flex p-2 justify-center items-center text-center align-middle transition-all duration-300 ease-in-out rotate-0">
+                                                <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.88312 6.88408C6.39495 7.37224 5.60345 7.37224 5.11528 6.88408L0.401276 2.17C-0.0868823 1.68186 -0.0868823 0.890404 0.401268 0.402245C0.889426 -0.0859047 1.68088 -0.0859047 2.16904 0.402245L5.9992 4.23241L9.82937 0.402245C10.3175 -0.0859047 11.109 -0.0859047 11.5971 0.402245C12.0853 0.890404 12.0853 1.68186 11.5971 2.17L6.88312 6.88408Z"
+                                                        fill="#C8D3F7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Box Awnser Div -->
+                                        <div
+                                            class="answer-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0">
+                                            <div
+                                                class="overflow-hidden select-none text-gray-500 text-[13px] font-regular leading-6 mt-2">
+                                                با مراجعه به سایت دیجی‌شهر و کلیک روی گزینه درخواست وام، وارد پنل کاربری
+                                                شوید.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question Col 2 -->
+                                <div onclick="openAnswerBox(this)" class="md:flex-1 faq-contaner">
+                                    <div
+                                        class=" relative w-full py-4 pl-4 pr-8 bg-white items-center rounded-2xl step-shadow cursor-pointer">
+                                        <!-- Question Number Div  -->
+                                        <div
+                                            class="p-1.5 bg-blue-700  rounded-xl justify-center items-center absolute top-4 -right-4">
+                                            <div
+                                                class="w-6 h-6 text-center text-white text-lg font-bold-yekan leading-9 flex justify-center items-center select-none">
+                                                2
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Title Div -->
+                                        <div class="flex gap-4 items-center cursor-pointer">
+                                            <!-- Icon Span -->
+                                            <span>
+                                                <img class="text-transparent max-w-full h-auto"
+                                                    src="../Images/Icons/user_edit_icon.webp" alt="editIcon">
+                                            </span>
+
+                                            <!-- Title Div -->
+                                            <div
+                                                class="question flex-1 select-none text-right text-blue-700 text-sm font-bold leading-normal ">
+                                                ثبت اطلاعات شخصی
+                                            </div>
+
+                                            <!-- Arrow Div -->
+                                            <div
+                                                class="arrow-div flex p-2 justify-center items-center text-center align-middle transition-all duration-300 ease-in-out rotate-0">
+                                                <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.88312 6.88408C6.39495 7.37224 5.60345 7.37224 5.11528 6.88408L0.401276 2.17C-0.0868823 1.68186 -0.0868823 0.890404 0.401268 0.402245C0.889426 -0.0859047 1.68088 -0.0859047 2.16904 0.402245L5.9992 4.23241L9.82937 0.402245C10.3175 -0.0859047 11.109 -0.0859047 11.5971 0.402245C12.0853 0.890404 12.0853 1.68186 11.5971 2.17L6.88312 6.88408Z"
+                                                        fill="#C8D3F7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Box Awnser Div -->
+                                        <div
+                                            class="answer-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0">
+                                            <div
+                                                class="overflow-hidden select-none text-gray-500 text-[13px] font-regular leading-6 mt-2">
+                                                بعد از ثبت درخواست، اطلاعات شخصی و شغلی خود را وارد ‌کنید.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question Container Row 2 -->
+                            <div class="flex flex-col md:w-full md:flex-row gap-4 md:gap-8">
+                                <!-- Question Col 1 -->
+                                <div onclick="openAnswerBox(this)" class="md:flex-1 faq-contaner">
+                                    <div
+                                        class=" relative w-full py-4 pl-4 pr-8 bg-white items-center rounded-2xl step-shadow cursor-pointer">
+                                        <!-- Question Number Div  -->
+                                        <div
+                                            class="p-1.5 bg-blue-700  rounded-xl justify-center items-center absolute top-4 -right-4">
+                                            <div
+                                                class="w-6 h-6 text-center text-white text-lg font-bold-yekan leading-9 flex justify-center items-center select-none">
+                                                3
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Title Div -->
+                                        <div class="flex gap-4 items-center cursor-pointer">
+                                            <!-- Icon Span -->
+                                            <span>
+                                                <img class="text-transparent max-w-full h-auto"
+                                                    src="../Images/Icons/riyal_icon.webp" alt="editIcon">
+                                            </span>
+
+                                            <!-- Title Div -->
+                                            <div
+                                                class="question flex-1 select-none text-right text-blue-700 text-sm font-bold leading-normal ">
+                                                تعیین میزان وام درخواستی
+                                            </div>
+
+                                            <!-- Arrow Div -->
+                                            <div
+                                                class="arrow-div flex p-2 justify-center items-center text-center align-middle transition-all duration-300 ease-in-out rotate-0">
+                                                <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.88312 6.88408C6.39495 7.37224 5.60345 7.37224 5.11528 6.88408L0.401276 2.17C-0.0868823 1.68186 -0.0868823 0.890404 0.401268 0.402245C0.889426 -0.0859047 1.68088 -0.0859047 2.16904 0.402245L5.9992 4.23241L9.82937 0.402245C10.3175 -0.0859047 11.109 -0.0859047 11.5971 0.402245C12.0853 0.890404 12.0853 1.68186 11.5971 2.17L6.88312 6.88408Z"
+                                                        fill="#C8D3F7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Box Awnser Div -->
+                                        <div
+                                            class="answer-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0">
+                                            <div
+                                                class="overflow-hidden select-none text-gray-500 text-[13px] font-regular leading-6 mt-2">
+                                                در این مرحله با توجه به رتبه اعتباری خود، می‌توانید میزان اعتبار و تعداد
+                                                ماه‌های بازپرداخت اقساط را انتخاب کنید.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question Col 2 -->
+                                <div onclick="openAnswerBox(this)" class="md:flex-1 faq-contaner">
+                                    <div
+                                        class=" relative w-full py-4 pl-4 pr-8 bg-white items-center rounded-2xl step-shadow cursor-pointer">
+                                        <!-- Question Number Div  -->
+                                        <div
+                                            class="p-1.5 bg-blue-700  rounded-xl justify-center items-center absolute top-4 -right-4">
+                                            <div
+                                                class="w-6 h-6 text-center text-white text-lg font-bold-yekan leading-9 flex justify-center items-center select-none">
+                                                4
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Title Div -->
+                                        <div class="flex gap-4 items-center cursor-pointer">
+                                            <!-- Icon Span -->
+                                            <span>
+                                                <img class="text-transparent max-w-full h-auto"
+                                                    src="../Images/Icons/documents_icon.webp" alt="editIcon">
+                                            </span>
+
+                                            <!-- Title Div -->
+                                            <div
+                                                class="question flex-1 select-none text-right text-blue-700 text-sm font-bold leading-normal ">
+                                                بررسی مدارک
+                                            </div>
+
+                                            <!-- Arrow Div -->
+                                            <div
+                                                class="arrow-div flex p-2 justify-center items-center text-center align-middle transition-all duration-300 ease-in-out rotate-0">
+                                                <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.88312 6.88408C6.39495 7.37224 5.60345 7.37224 5.11528 6.88408L0.401276 2.17C-0.0868823 1.68186 -0.0868823 0.890404 0.401268 0.402245C0.889426 -0.0859047 1.68088 -0.0859047 2.16904 0.402245L5.9992 4.23241L9.82937 0.402245C10.3175 -0.0859047 11.109 -0.0859047 11.5971 0.402245C12.0853 0.890404 12.0853 1.68186 11.5971 2.17L6.88312 6.88408Z"
+                                                        fill="#C8D3F7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Box Awnser Div -->
+                                        <div
+                                            class="answer-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0">
+                                            <div
+                                                class="overflow-hidden select-none text-gray-500 text-[13px] font-regular leading-6 mt-2">
+                                                پس از بررسی‌ مدارک و اطلاعات‌ وارد شده، پشتیبانی دیجی‌شهر با شما تماس
+                                                می‌گیرد و هماهنگی‌های لازم انجام می‌شود.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question Container Row 3 -->
+                            <div class="block desktop:w-1/2 desktop:self-center">
+                                <!-- Question Col 1 -->
+                                <div onclick="openAnswerBox(this)" class="md:flex-1 faq-contaner">
+                                    <div
+                                        class=" relative w-full py-4 pl-4 pr-8 bg-white items-center rounded-2xl step-shadow cursor-pointer">
+                                        <!-- Question Number Div  -->
+                                        <div
+                                            class="p-1.5 bg-blue-700  rounded-xl justify-center items-center absolute top-4 -right-4">
+                                            <div
+                                                class="w-6 h-6 text-center text-white text-lg font-bold-yekan leading-9 flex justify-center items-center select-none">
+                                                3
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Title Div -->
+                                        <div class="flex gap-4 items-center cursor-pointer">
+                                            <!-- Icon Span -->
+                                            <span>
+                                                <img class="text-transparent max-w-full h-auto"
+                                                    src="../Images/Icons/wallet_icon.webp" alt="editIcon">
+                                            </span>
+
+                                            <!-- Title Div -->
+                                            <div
+                                                class="question flex-1 select-none text-right text-blue-700 text-sm font-bold leading-normal ">
+                                                شارژ کیف پول
+                                            </div>
+
+                                            <!-- Arrow Div -->
+                                            <div
+                                                class="arrow-div flex p-2 justify-center items-center text-center align-middle transition-all duration-300 ease-in-out rotate-0">
+                                                <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M6.88312 6.88408C6.39495 7.37224 5.60345 7.37224 5.11528 6.88408L0.401276 2.17C-0.0868823 1.68186 -0.0868823 0.890404 0.401268 0.402245C0.889426 -0.0859047 1.68088 -0.0859047 2.16904 0.402245L5.9992 4.23241L9.82937 0.402245C10.3175 -0.0859047 11.109 -0.0859047 11.5971 0.402245C12.0853 0.890404 12.0853 1.68186 11.5971 2.17L6.88312 6.88408Z"
+                                                        fill="#C8D3F7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <!-- Question Box Awnser Div -->
+                                        <div
+                                            class="answer-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0">
+                                            <div
+                                                class="overflow-hidden select-none text-gray-500 text-[13px] font-regular leading-6 mt-2">
+                                                پس از تایید بانک، کیف پولتان در فروشگاه دیجی‌شهر شارژ شده و می‌توانید
+                                                کالای دلخواه خود را به صورت قسطی خریداری کنید.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Documents Section -->
+            <section class="space-y-6">
+                <!-- Header Section Div -->
+                <div
+                    class="flex flex-col items-center w-full justify-center space-y-2 font-semibold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            مدارک لازم برای دریافت وام کالا
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group">
+                                    <path id="Path" d="M8.45117 8.16504L14.2845 13.9984L20.1178 8.16504"
+                                        stroke="#153BBF" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path id="Path_2" d="M8.45117 15.165L14.2845 20.9984L20.1178 15.165"
+                                        stroke="#4C6EE5" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div
+                        class="mb-16 flex w-full gap-3 overflow-auto px-5 thin-scrollbar lg:justify-center lg:gap-12 lg:max-w-maxSpace lg:mx-auto scrollbar-hidden">
+                        <!-- Item Row 1 -->
+                        <div class="flex flex-col justify-end items-center shrink-0">
+                            <div class="block">
+                                <img alt="" loading="lazy" width="160" height="160" decoding="async" data-nimg="1"
+                                    style="color:transparent" src="../Images/Icons/mojavez_faaliyat.webp">
+                            </div>
+
+                            <div
+                                class="flex flex-col justify-center items-center text-center h-40 pt-12 pb-6 -mt-20 bg-primary-50 rounded-3xl -z-10 w-60">
+                                <p class="text-primary-500 font-heading-6">تصاویر مجوز فعالیت</p>
+
+                                <p class="text-primary-300 font-p-2">برای صاحبان مشاغل</p>
+                            </div>
+                        </div>
+
+                        <!-- Item Row 2 -->
+                        <div class="flex flex-col justify-end items-center shrink-0">
+                            <div class="block">
+                                <img alt="" loading="lazy" width="160" height="160" decoding="async" data-nimg="1"
+                                    style="color:transparent" src="../Images/Icons/fish_hoghooghi.webp">
+                            </div>
+
+                            <div
+                                class="flex flex-col justify-center items-center text-center h-40 pt-12 pb-6 -mt-20 bg-primary-50 rounded-3xl -z-10 w-60">
+                                <p class="text-primary-500 font-heading-6">
+                                    فیش حقوقی و معرفی‌نامه شغلی
+                                </p>
+
+                                <p class="text-primary-300 font-p-2">
+                                    برای کارمندان
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Item Row 3 -->
+                        <div class="flex flex-col justify-end items-center shrink-0">
+                            <div class="block">
+                                <img alt="" loading="lazy" width="160" height="160" decoding="async" data-nimg="1"
+                                    style="color:transparent" src="../Images/Icons/useri_document.webp">
+                            </div>
+
+                            <div
+                                class="flex flex-col justify-center items-center text-center h-40 pt-12 pb-6 -mt-20 bg-primary-50 rounded-3xl -z-10 w-60">
+                                <p class="text-primary-500 font-heading-6">
+                                    تصاویر شناسنامه و کارت ملی
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <!-- Item Row 4 -->
+                        <div class="flex flex-col justify-end items-center shrink-0">
+                            <div class="block">
+                                <img alt="" loading="lazy" width="160" height="160" decoding="async" data-nimg="1"
+                                    style="color:transparent" src="../Images/Icons/location_document.webp">
+                            </div>
+
+                            <div
+                                class="flex flex-col justify-center items-center text-center h-40 pt-12 pb-6 -mt-20 bg-primary-50 rounded-3xl -z-10 w-60">
+                                <p class="text-primary-500 font-heading-6">
+                                    تصاویر مدارک محل اقامت
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Installment Section -->
+            <section class="space-y-6">
+                <div class="block">
+                    <div
+                        class="text-white from-primary-500 to-[#18428F] bg-gradient-to-b w-full overflow-hidden pt-10 pb-28 space-y-20 curve">
+                        <!-- Header Section Div -->
+                        <div class="md:mx-8 lg:max-w-maxSpace lg:mx-auto">
+                            <!-- Header Section Div -->
+                            <div class="flex flex-col items-center justify-center space-y-1">
+                                <h3 class="text-center font-bold">
+                                    مزایای خرید قسطی از دیجی‌شهر
+                                </h3>
+
+                                <!-- Arrow Div -->
+                                <div class="flex items-center justify-center py-1">
+                                    <span class="animate-shake-vertical">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29"
+                                            viewBox="0 0 28 29" fill="none">
+                                            <path d="M8.16602 8.66504L13.9993 14.4984L19.8327 8.66504" stroke="#4C6EE5"
+                                                stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                            <path d="M8.16602 15.665L13.9993 21.4984L19.8327 15.665" stroke="#7590EB"
+                                                stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="grid grid-cols-1 px-12 md:grid-cols-2 lg:grid-cols-4 lg:px-8 gap-y-6 lg:gap-y-0 md:mx-8 lg:max-w-maxSpace lg:mx-auto lg:gap-20">
+                            <!-- First Item Row -->
+                            <div class="flex w-max items-center gap-x-3 select-none">
+                                <div class="rounded-md bg-white p-3 ">
+                                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.5 8.5C24.6046 8.5 25.5 9.39543 25.5 10.5V11.5H19.5C16.7386 11.5 14.5 13.7386 14.5 16.5C14.5 19.2614 16.7386 21.5 19.5 21.5H25.5V22.5C25.5 23.6046 24.6046 24.5 23.5 24.5H9.5C8.39543 24.5 7.5 23.6046 7.5 22.5V10.5C7.5 9.39543 8.39543 8.5 9.5 8.5H23.5ZM24.5 13.5C25.6046 13.5 26.5 14.3954 26.5 15.5V17.5C26.5 18.6046 25.6046 19.5 24.5 19.5H19.5C17.8431 19.5 16.5 18.1569 16.5 16.5C16.5 14.8431 17.8431 13.5 19.5 13.5H24.5ZM19.5 15.5C18.9477 15.5 18.5 15.9477 18.5 16.5C18.5 17.0523 18.9477 17.5 19.5 17.5C20.0523 17.5 20.5 17.0523 20.5 16.5C20.5 15.9477 20.0523 15.5 19.5 15.5Z"
+                                            fill="#2852E4"></path>
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <p class="font-regular text-lg">
+                                        تا <span class="font-regular-yekan">200</span> میلیون تومان
+                                    </p>
+
+                                    <p class="text-[13px] font-regular">
+                                        بالاترین اعتبار خرید اقساطی کالا
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Second Item Row -->
+                            <div class="flex w-max items-center gap-x-3">
+                                <div class="rounded-md bg-white p-3 ">
+                                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M20.5 7.5C21.0523 7.5 21.5 7.94772 21.5 8.5V9.5H23.5C24.6046 9.5 25.5 10.3954 25.5 11.5V17.0278C24.4385 16.0777 23.0367 15.5 21.5 15.5C18.1863 15.5 15.5 18.1863 15.5 21.5C15.5 23.0367 16.0777 24.4385 17.0278 25.5H9.5C8.39543 25.5 7.5 24.6046 7.5 23.5V11.5C7.5 10.3954 8.39543 9.5 9.5 9.5H11.5V8.5C11.5 7.94772 11.9477 7.5 12.5 7.5C13.0523 7.5 13.5 7.94772 13.5 8.5V9.5H19.5V8.5C19.5 7.94772 19.9477 7.5 20.5 7.5ZM21.5 17.5C23.7091 17.5 25.5 19.2909 25.5 21.5C25.5 23.7091 23.7091 25.5 21.5 25.5C19.2909 25.5 17.5 23.7091 17.5 21.5C17.5 19.2909 19.2909 17.5 21.5 17.5ZM21.5 19C20.9872 19 20.5645 19.386 20.5067 19.8834L20.5 20V21.5C20.5 22.0128 20.886 22.4355 21.3834 22.4933L21.5 22.5H22.5C23.0523 22.5 23.5 22.0523 23.5 21.5C23.5 20.9872 23.114 20.5645 22.6166 20.5067L22.5 20.5V20C22.5 19.4477 22.0523 19 21.5 19ZM13 18.5H12.5C11.9477 18.5 11.5 18.9477 11.5 19.5C11.5 20.0523 11.9477 20.5 12.5 20.5H13C13.5523 20.5 14 20.0523 14 19.5C14 18.9477 13.5523 18.5 13 18.5ZM15.5 14.5H12.5C11.9477 14.5 11.5 14.9477 11.5 15.5C11.5 16.0128 11.886 16.4355 12.3834 16.4933L12.5 16.5H15.5C16.0523 16.5 16.5 16.0523 16.5 15.5C16.5 14.9872 16.114 14.5645 15.6166 14.5067L15.5 14.5Z"
+                                            fill="#2852E4"></path>
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <p class="font-regular text-lg">
+                                        بازپرداخت تا <span class="font-regular-yekan">60</span> ماه
+                                    </p>
+
+                                    <p class="text-[13px] font-regular">
+                                        بالا‌ترین مدت بازپرداخت
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Third Item Row -->
+                            <div class="flex w-max items-center gap-x-3">
+                                <div class="rounded-md bg-white p-3 ">
+                                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5 17.5C19.7091 17.5 21.5 19.2909 21.5 21.5V23C21.5 23.8284 20.8284 24.5 20 24.5H8C7.17157 24.5 6.5 23.8284 6.5 23V21.5C6.5 19.2909 8.29086 17.5 10.5 17.5H17.5ZM23.5 17.5002C25.1569 17.5002 26.5 18.8434 26.5 20.5002V22.0002C26.5 22.8287 25.8284 23.5002 25 23.5002H23.5V21.5C23.5 19.8645 22.7148 18.4125 21.5008 17.5002H23.5ZM14 7.5C16.4853 7.5 18.5 9.51472 18.5 12C18.5 14.4853 16.4853 16.5 14 16.5C11.5147 16.5 9.5 14.4853 9.5 12C9.5 9.51472 11.5147 7.5 14 7.5ZM22.5 10.5C24.1569 10.5 25.5 11.8432 25.5 13.5C25.5 15.1569 24.1569 16.5 22.5 16.5C20.8431 16.5 19.5 15.1569 19.5 13.5C19.5 11.8432 20.8431 10.5 22.5 10.5Z"
+                                            fill="#2852E4"></path>
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <p class="font-regular text-lg">
+                                        بدون ضامن
+                                    </p>
+
+                                    <p class="text-[13px] font-regular">
+                                        دریافت اعتبار کالا حتی بدون ضامن
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Fourth Item Row -->
+                            <div class="flex w-max items-center gap-x-3">
+                                <div class="rounded-md bg-white p-3 ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M27.166 7.1665C28.6388 7.1665 29.8327 8.36041 29.8327 9.83317V23.1665C29.8327 24.6393 28.6388 25.8332 27.166 25.8332H5.83268C4.35992 25.8332 3.16602 24.6393 3.16602 23.1665V9.83317C3.16602 8.36041 4.35992 7.1665 5.83268 7.1665H27.166ZM5.99948 19.1665L5.83268 19.1701V21.8448C5.88703 21.8372 5.94271 21.8332 5.99948 21.8332C6.64366 21.8332 7.16602 22.3554 7.16602 22.9998L7.16306 23.0841L7.15432 23.1665H9.8291L9.83268 22.9998C9.83268 20.8828 8.11658 19.1665 5.99948 19.1665ZM26.9992 19.1665C24.9578 19.1665 23.2891 20.7624 23.1725 22.7746L23.166 22.9998C23.166 23.0557 23.1672 23.1112 23.1696 23.1665H25.8443C25.8367 23.1122 25.8327 23.0565 25.8327 22.9998C25.8327 22.3554 26.3549 21.8332 26.9992 21.8332C27.056 21.8332 27.1116 21.8372 27.166 21.8448V19.1701L26.9992 19.1665ZM16.4993 11.1665C13.5538 11.1665 11.166 13.5543 11.166 16.4998C11.166 19.4453 13.5538 21.8332 16.4993 21.8332C19.4448 21.8332 21.8327 19.4453 21.8327 16.4998C21.8327 13.5543 19.4448 11.1665 16.4993 11.1665ZM16.4993 13.8332C17.9721 13.8332 19.166 15.027 19.166 16.4998C19.166 17.9726 17.9721 19.1665 16.4993 19.1665C15.0265 19.1665 13.8327 17.9726 13.8327 16.4998C13.8327 15.027 15.0265 13.8332 16.4993 13.8332ZM9.83268 9.83317H7.16602V9.9998C7.16602 10.6442 6.64366 11.1665 5.99948 11.1665C5.94271 11.1665 5.88703 11.1625 5.83268 11.1548V13.8295L5.99948 13.8331C8.11658 13.8331 9.83268 12.1168 9.83268 9.9998V9.83317ZM25.8443 9.83317H23.1696L23.166 9.9998C23.166 12.0412 24.7618 13.71 26.774 13.8266L27.0828 13.8322L27.166 13.8295V11.1548C27.1116 11.1625 27.056 11.1665 26.9992 11.1665C26.3549 11.1665 25.8327 10.6442 25.8327 9.9998L25.8356 9.91557L25.8443 9.83317Z"
+                                            fill="#2852E4"></path>
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <p class="font-regular text-lg">
+                                        بدون پیش پرداخت
+                                    </p>
+
+                                    <p class="text-[13px] font-regular">
+                                        خرید کالا از دم قسط
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Comments Section -->
+            <section class="space-y-6">
+                <!-- Header Section Div -->
+                <div
+                    class="flex flex-col items-center w-full justify-center space-y-2 font-semibold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            نظرات مشتریان
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group">
+                                    <path id="Path" d="M8.45117 8.16504L14.2845 13.9984L20.1178 8.16504"
+                                        stroke="#153BBF" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path id="Path_2" d="M8.45117 15.165L14.2845 20.9984L20.1178 15.165"
+                                        stroke="#4C6EE5" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Body Section Div -->
+                <div class="block">
+                    <div class="relative">
+                        <!-- Comments Div Container -->
+                        <div id="commentContainer"
+                            class="lg:grid lg:grid-cols-3 gap-x-4 lg:gap-6 lg:gap-y-2 w-full lg:pt-4 mb-12 lg:mx-auto lg:z-0 relative lg:-mt-8 transition-all duration-1000 overflow-scroll lg:overflow-visible flex items-center lg:max-w-maxSpace scrollbar-hidden overflow-x-auto ps-8  md:ps-[unset] lg:h-[34rem] lg:overflow-y-hidden py-4">
+                            <!-- Comments Row 1 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:mt-24">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">آقای خداوردی پور</p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">200</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            اعتبار دریافتی ظرف چند روز به حساب کاربری‌ام واریز شد و با اعتبار خرید کالا
+                                            از دیجی‌شهر، برای خودم و خانواده‌ام چند گوشی موبایل خریداری کردم.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_khodaverdi.webp"
+                                            alt="testimonial_khodaverdi">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Comments Row 2 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:-mt-8">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">
+                                                آقای شاطر حسینی
+                                            </p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">199</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            من بازنشسته هستم و تونستم خودم 199 میلیون اعتبار بدون ضامن از دیجی‌شهر
+                                            بگیرم. با این مبلغ از فروشگاه دیجی‌شهر یک کولر گازی خریدم و یک لپ تاپ برای
+                                            پسرم؛ همچنین دو گوشی و یک پنکه.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_shaterhoseini.webp"
+                                            alt="testimonial_khodaverdi">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Comments Row 3 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:mt-24">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">
+                                                آقای علیرضا زاده
+                                            </p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">80</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            من 80 میلیون تومان 60 ماهه اعتبار دریافت کردم و با موجودی کیف پولم، تلفن
+                                            همراه خریدم که دو هفته‌ای به دستم رسید.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_alizadeh.webp" alt="testimonial_alizadeh">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Comments Row 4 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:mt-10">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">
+                                                خانم خدارحمی
+                                            </p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">90</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            نقطه قوت دیجی‌شهر، به نظرم تنوع محصولاتی بود که داشت و تونستم همه کالاهایی
+                                            که نیاز دارم رو به راحتی خریداری کنم.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_khodarahmi.webp"
+                                            alt="testimonial_khodarahmi">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Comments Row 5 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:-mt-14">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">
+                                                آقای اردکانی
+                                            </p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">200</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            خیلی خیلی خوب بود. من یک هفته‌ای تونستم اعتبار 200 میلیون تومانی 60 ماهه رو
+                                            دریافت کنم و پاسخگویی تیم پشتیبانی عالی بود. با اعتبارم هم یه گوشی آیفون و
+                                            یه گوشی سامسونگ خریدم.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_ardakani.webp" alt="testimonial_ardakani">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Comments Row 6 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:mt-10">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">
+                                                خانم محمدی
+                                            </p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">70</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            همه چیز عالی بود، تنوع محصولات بسیار بالا بود و یخچالی که میخواستم رو با
+                                            قیمت مناسب خریدم و سر وقت و سالم بدستم رسید.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_mohammadi.webp"
+                                            alt="testimonial_mohammadi">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Comments Row 7 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:mt-10">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">
+                                                آقای رومی
+                                            </p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">200</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            من 200 میلیون تومان 60 ماهه اعتبار گرفتم و برای همسرم هم درخواست اعتبار
+                                            دادم. با این مبلغ برای بچه‌ها گوشی و لپ تاپ خریدیم و خیلی فوری اعتبار رو
+                                            دریافت کردیم.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_ardakani.webp" alt="testimonial_ardakani">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Comments Row 8 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:-mt-14">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">
+                                                آقای بنی جواد
+                                            </p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">60</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            60 تومن 60 ماهه گرفتم که واقعا عالی بود. سرعت پروسه کاری خیلی خوب بود و من
+                                            تونستم 10 الی 15 روزه اعتبارم رو از دیجی‌شهر بگیرم و کالاهای مورد نظرم رو
+                                            بخرم.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_banijavad.webp"
+                                            alt="testimonial_ardakani">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Comments Row 9 Div -->
+                            <div
+                                class="w-[296px] h-[338px] desktop:w-[370px] desktop:h-auto lg:mx-auto shrink-0 mt-4 mb-10 lg:my-0 lg:mt-10">
+                                <div
+                                    class="relative w-full h-full p-4 shadow-sm md:p-6 rounded-3xl desktop:shadow-xl lg:shadow-xl overflow-hidden">
+                                    <!-- Header Div Container -->
+                                    <div class="flex justify-between items-center ">
+                                        <!-- Profile And Name Div -->
+                                        <div class="flex items-center gap-x-2">
+                                            <!-- Icon Div -->
+                                            <div class="block">
+                                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        fill="#F8FAFC"></rect>
+                                                    <rect x="0.832031" y="0.5" width="39" height="39" rx="19.5"
+                                                        stroke="#E2E8F0"></rect>
+                                                    <path
+                                                        d="M20.332 20.8337C22.3283 20.8337 24.1448 21.4117 25.4801 22.2266C26.1475 22.6338 26.7171 23.1139 27.1287 23.6349C27.5337 24.1476 27.832 24.7612 27.832 25.417C27.832 26.1211 27.4894 26.6762 26.9964 27.0719C26.5294 27.4469 25.9139 27.695 25.2594 27.8683C23.9448 28.2164 22.1895 28.3337 20.332 28.3337C18.4745 28.3337 16.7192 28.2164 15.4047 27.8683C14.7502 27.695 14.1347 27.4469 13.6676 27.0719C13.1746 26.6762 12.832 26.1211 12.832 25.417C12.832 24.7612 13.1304 24.1476 13.5353 23.6349C13.9469 23.1139 14.5166 22.6338 15.1839 22.2266C16.5193 21.4117 18.3358 20.8337 20.332 20.8337ZM20.332 11.667C22.6332 11.667 24.4987 13.5325 24.4987 15.8337C24.4987 18.1348 22.6332 20.0003 20.332 20.0003C18.0308 20.0003 16.1654 18.1348 16.1654 15.8337C16.1654 13.5325 18.0308 11.667 20.332 11.667Z"
+                                                        fill="#748297"></path>
+                                                </svg>
+                                            </div>
+
+                                            <!-- Name Section -->
+                                            <p class="inline-block font-regular text-[13px]">
+                                                آقای نیک پور
+                                            </p>
+                                        </div>
+
+                                        <div class="p-2 bg-primary-50 text-primary-500 rounded-r-2xl rounded-l-md">وام
+                                            <b class="font-bold-yekan">185</b> میلیونی</div>
+                                    </div>
+
+                                    <hr class="my-3 bg-slate-200">
+
+                                    <!-- Comment And Image -->
+                                    <div class="text-right text-gray-600 desktop:w-7/12 font-regular text-sm leading-7">
+                                        <p>
+                                            نکته قوتی که دیجی‌شهر داشت و نظرم رو جلب کرد تنوع محصولاتش بود و تونستم با
+                                            185 میلیون تومان اعتبار 60 ماهه‌ای که گرفتم موتورسیکلت خریداری کنم.
+                                        </p>
+                                    </div>
+
+                                    <div class="block absolute left-0 bottom-0">
+                                        <img class="-z-10 max-w-full h-auto"
+                                            src="../Images/Images/testimonial_nikpoor.webp" alt="testimonial_nikpoor">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="overlayDiv"
+                            class="absolute top-0 z-10 hidden h-full w-full bg-gradient-to-b from-transparent via-white/60 to-white via-80% lg:block">
+                        </div>
+
+                        <button onclick="toggleComments()"
+                            class="font-regular min-w-max transition-all duration-300 w-full text-primary-500 hidden lg:block mx-auto absolute z-10 left-0 bottom-0 m-0 py-8 px-0 pt-24"
+                            style="background-image:linear-gradient(to bottom, transparent, #ffffff)">
+                            <div class="lg:flex hidden items-center justify-center">
+                                <span id="buttonText" class="text-sm">
+                                    مشاهده همه
+                                </span>
+
+                                <span id="buttonIcon">
+                                    <svg class="mr-2" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.7071 15.7072C12.3166 16.0977 11.6834 16.0977 11.2929 15.7072L5.63604 10.0503C5.24551 9.65982 5.24551 9.02666 5.63604 8.63613C6.02656 8.24561 6.65973 8.24561 7.05025 8.63613L12 13.5859L16.9497 8.63613C17.3403 8.24561 17.9734 8.24561 18.364 8.63613C18.7545 9.02666 18.7545 9.65982 18.364 10.0503L12.7071 15.7072Z"
+                                            fill="#2852E4"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Article Section -->
+            <section class="space-y-6 bg-blog-radial-gradient">
+                <!-- Header Section Div -->
+                <div
+                    class="flex flex-col items-center w-full justify-center space-y-2 font-semibold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            جدیدترین مقالات دیجی‌شهر
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group">
+                                    <path id="Path" d="M8.45117 8.16504L14.2845 13.9984L20.1178 8.16504"
+                                        stroke="#153BBF" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path id="Path_2" d="M8.45117 15.165L14.2845 20.9984L20.1178 15.165"
+                                        stroke="#4C6EE5" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Body Section Div -->
+                <div class="block">
+                    <div class="mx-auto bg-transparent lg:gap-12 max-w-maxSpace px-4">
+                        <div
+                            class="flex justify-between items-center gap-4 m-auto overflow-x-auto scroll-px-5 lg:px-6 scrollbar-hidden mb-12">
+                            <!-- Item 1 Row  -->
+                            <a href="#"
+                                class="rounded-3xl p-6 h-[460px] lg:min-h-[460px] shadow-sm space-y-4 flex flex-col border border-solid border-gray-100 bg-white shrink-0 w-96 basis-[280px] desktop:basis-[335px]">
+                                <div class="relative h-52">
+                                    <img class="absolute top-0 bottom-0 left-0 right-0 w-full h-full text-transparent object-cover rounded-xl"
+                                        src="../Images/Images/digishahrBlog-Banner-1.webp" alt="blogbanner">
+                                </div>
+
+                                <div class="flex flex-col justify-between flex-1 space-y-4">
+                                    <h5 class="font-bold text-base">
+                                        با مضرات سرخ‌کن بدون روغن آشنا شوید!
+                                    </h5>
+
+                                    <p class="font-regular text-sm line-clamp-3 leading-7">
+                                        سرخ‌کن‌های بدون روغن با ظاهری مدرن به یکی از محبوب‌ترین لوازم آشپزخانه تبدیل
+                                        شده‌اند. اما آیا واقعاً می‌توان با خیالی آسوده به این دستگاه‌ها اعتماد کرد و قید
+                                        سرخ‌کن‌های سنتی ...
+                                    </p>
+
+                                    <div class="inline-flex items-center gap-1 mr-auto text-primary-500">
+                                        <span class="font-regular text-[13px] desktop:text-base">بیشتر</span>
+                                        <span class="w-5 h-5">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path d="M15 6.5L9 12.5L15 18.5" stroke="#2852E4" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- Item 2 Row  -->
+                            <a href="#"
+                                class="rounded-3xl p-6 h-[460px] lg:min-h-[460px] shadow-sm space-y-4 flex flex-col border border-solid border-gray-100 bg-white shrink-0 w-96 basis-[280px] desktop:basis-[335px]">
+                                <div class="relative h-52">
+                                    <img class="absolute top-0 bottom-0 left-0 right-0 w-full h-full text-transparent object-cover rounded-xl"
+                                        src="../Images/Images/digishahrBlog-Banner-2.webp" alt="blogbanner">
+                                </div>
+
+                                <div class="flex flex-col justify-between flex-1 space-y-4">
+                                    <h5 class="font-bold text-base">
+                                        خوش‌قیمت‌ترین لپ‌تاپ‌های لنوو در تابستان ۱۴۰۳
+                                    </h5>
+
+                                    <p class="font-regular text-sm line-clamp-3 leading-7">
+                                        دنبال لپ‌تاپ جدیدی هستید که هم قدرتمند باشد، هم تنوع مدل داشته باشد و هم قیمت
+                                        مناسبی داشته باشد؟ لنوو، غول محبوب دنیای لپ‌تاپ‌ها، اینجاست تا به شما کمک کند!
+                                        ...
+                                    </p>
+
+                                    <div class="inline-flex items-center gap-1 mr-auto text-primary-500">
+                                        <span class="font-regular text-[13px] desktop:text-base">بیشتر</span>
+                                        <span class="w-5 h-5">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path d="M15 6.5L9 12.5L15 18.5" stroke="#2852E4" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- Item 3 Row  -->
+                            <a href="#"
+                                class="rounded-3xl p-6 h-[460px] lg:min-h-[460px] shadow-sm space-y-4 flex flex-col border border-solid border-gray-100 bg-white shrink-0 w-96 basis-[280px] desktop:basis-[335px]">
+                                <div class="relative h-52">
+                                    <img class="absolute top-0 bottom-0 left-0 right-0 w-full h-full text-transparent object-cover rounded-xl"
+                                        src="../Images/Images/digishahrBlog-Banner-3.webp" alt="blogbanner">
+                                </div>
+
+                                <div class="flex flex-col justify-between flex-1 space-y-4">
+                                    <h5 class="font-bold text-base">
+                                        نقد و بررسی موتور بنلی مدل TNT15 | مزایا و معایب
+                                    </h5>
+
+                                    <p class="font-regular text-sm line-clamp-3 leading-7">
+                                        اگر از عاشقان موتور سیکلت‌های قدرتمند و باکیفیت هستید، موتور سیکلت بنلی مدل
+                                        TNT15 بهترین پیشنهاد به شماست. این موتور سیکلت با طراحی منحصربه‌فرد و قابلیت‌های
+                                        جذاب، بسیاری از موتورسواران ...
+                                    </p>
+
+                                    <div class="inline-flex items-center gap-1 mr-auto text-primary-500">
+                                        <span class="font-regular text-[13px] desktop:text-base">بیشتر</span>
+                                        <span class="w-5 h-5">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path d="M15 6.5L9 12.5L15 18.5" stroke="#2852E4" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <a href="#"
+                            class="flex group pl-7 flex-row justify-end items-center w-full text-primary-500 font-regular text-base">
+                            <span class="me-2">
+                                مشاهده همه
+                            </span>
+
+                            <span
+                                class="w-5 h-5 flex justify-center items-center group-hover:-translate-x-1 transition-all duration-100 ease-in translate-x-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path d="M15 6.5L9 12.5L15 18.5" stroke="#2852E4" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="space-y-6">
+                <!-- Header Section Div -->
+                <div
+                    class="flex flex-col items-center w-full justify-center space-y-2 font-semibold desktop:font-bold text-lg desktop:text-2xl">
+                    <div class="block">
+                        <p class="relative">
+                            سوالات متداول
+
+                            <span
+                                class="absolute -right-2 desktop:top-0.5 desktop:-right-2.5 w-7 h-7 desktop:h-[35px] desktop:w-9 -z-10 rounded-lg rounded-r-2xl bg-[linear-gradient(225deg,_#7CCBCF_0%,_#F5FAFA_100%)] backdrop-blur-[5.637930870056152px]"></span>
+                        </p>
+                    </div>
+
+                    <!-- Arrow Div -->
+                    <div class="flex items-center justify-center py-1">
+                        <span class="animate-shake-vertical">
+                            <svg width="29" height="28" viewBox="0 0 29 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group">
+                                    <path id="Path" d="M8.45117 8.16504L14.2845 13.9984L20.1178 8.16504"
+                                        stroke="#153BBF" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path id="Path_2" d="M8.45117 15.165L14.2845 20.9984L20.1178 15.165"
+                                        stroke="#4C6EE5" stroke-width="2.55" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Body Section Div -->
+                <div class="flex flex-col gap-6 mb-16 px-4 md:mx-8 lg:max-w-maxSpace lg:mx-auto">
+                    <div class="flex flex-col items-center gap-3">
+                        <!-- Question Div Container Col 1 -->
+                        <div onclick="faqOpen(this)"
+                            class="flex flex-col w-full items-center p-5 rounded-lg border border-primary-100">
+                            <!-- Question Header Div -->
+                            <div class="flex justify-between items-center cursor-pointer w-full">
+                                <h3
+                                    class="question-header font-regular text-base leading-6 sm:text-base desktop:text-base desktop:leading-7 text-gray-600">
+                                    برای دریافت وام به چه مدارکی نیاز است؟
+                                </h3>
+
+                                <div class="arrow-icon cursor-pointer transition-all duration-300 ease-in-out rotate-0">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.7071 15.7072C12.3166 16.0977 11.6834 16.0977 11.2929 15.7072L5.63604 10.0503C5.24551 9.65982 5.24551 9.02666 5.63604 8.63613C6.02656 8.24561 6.65973 8.24561 7.05025 8.63613L12 13.5859L16.9497 8.63613C17.3403 8.24561 17.9734 8.24561 18.364 8.63613C18.7545 9.02666 18.7545 9.65982 18.364 10.0503L12.7071 15.7072Z"
+                                            fill="#748297"></path>
+                                    </svg></div>
+                            </div>
+
+                            <!-- Question Anwser Div -->
+                            <div
+                                class="question-anwser-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0 w-full text-gray-600 text-right text-base font-regular leading-6 mt-2">
+                                <div class="overflow-hidden">
+                                    <p>
+                                        از جمله مدارکی که برای دریافت وام نیاز است شامل مدارک هویتی (تصاویر صفحات
+                                        شناسنامه و تصویر کارت ملی یا تصویر رسید ثبت احوال)، مدارک سکونتی (سند یا
+                                        اجاره‌نامه منزل) و مدارک شغلی که برای کارمندان شامل تصویر آخرین فیش حقوقی و
+                                        معرفی‌نامه شغلی خطاب به بانک شهر و برای سایر افراد شامل تصویر جواز کسب یا کارت
+                                        بازرگانی و اجاره‌نامه یا سند محل کار می‌شود. همچنین متقاضی دریافت وام آنلاین
+                                        خرید کالا علاوه بر رتبه اعتباری، باید در بانک شهر حساب داشته باشد.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Question Div Container Col 2 -->
+                        <div onclick="faqOpen(this)"
+                            class="flex flex-col w-full items-center p-5 rounded-lg border border-primary-100">
+                            <!-- Question Header Div -->
+                            <div class="flex justify-between items-center cursor-pointer w-full">
+                                <h3
+                                    class="question-header font-regular text-base leading-6 sm:text-base desktop:text-base desktop:leading-7 text-gray-600">
+                                    مراحل دریافت وام خرید اعتباری چگونه است؟
+                                </h3>
+
+                                <div class="arrow-icon cursor-pointer transition-all duration-300 ease-in-out rotate-0">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.7071 15.7072C12.3166 16.0977 11.6834 16.0977 11.2929 15.7072L5.63604 10.0503C5.24551 9.65982 5.24551 9.02666 5.63604 8.63613C6.02656 8.24561 6.65973 8.24561 7.05025 8.63613L12 13.5859L16.9497 8.63613C17.3403 8.24561 17.9734 8.24561 18.364 8.63613C18.7545 9.02666 18.7545 9.65982 18.364 10.0503L12.7071 15.7072Z"
+                                            fill="#748297"></path>
+                                    </svg></div>
+                            </div>
+
+                            <!-- Question Anwser Div -->
+                            <div
+                                class="question-anwser-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0 w-full text-gray-600 text-right text-base font-regular leading-6 mt-2">
+                                <div class="overflow-hidden">
+                                    <p>
+                                        ۱.در سایت دیجی‌شهر ثبت‌نام کنید و اطلاعات شخصی و شغلی خود را ثبت کنید.
+                                        <br>
+                                        ۲.با توجه به اعتبارسنجی که انجام می‌دهید، میزان اعتبار و زمان بازپرداخت اقساط را
+                                        انتخاب کنید.
+                                        <br>
+                                        ۳.مدارک هویتی، سکونتی و شغلی خود را بارگذاری کنید و وارد مرحله انتخاب شعبه‌ بانک
+                                        شوید.
+                                        <br>
+                                        ۴.پس از تایید مدارک، تیم پشتیبانی برای تحویل مدارک با شما تماس می‌گیرد.
+                                        <br>
+                                        ۵.در صورت تایید بانک، کیف پول شما در فروشگاه دیجی‌شهر برای خرید قسطی شارژ
+                                        می‌شود.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Question Div Container Col 3 -->
+                        <div onclick="faqOpen(this)"
+                            class="flex flex-col w-full items-center p-5 rounded-lg border border-primary-100">
+                            <!-- Question Header Div -->
+                            <div class="flex justify-between items-center cursor-pointer w-full">
+                                <h3
+                                    class="question-header font-regular text-base leading-6 sm:text-base desktop:text-base desktop:leading-7 text-gray-600">
+                                    وام دیجی‌شهر به چه صورتی قابل استفاده است؟
+                                </h3>
+
+                                <div class="arrow-icon cursor-pointer transition-all duration-300 ease-in-out rotate-0">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.7071 15.7072C12.3166 16.0977 11.6834 16.0977 11.2929 15.7072L5.63604 10.0503C5.24551 9.65982 5.24551 9.02666 5.63604 8.63613C6.02656 8.24561 6.65973 8.24561 7.05025 8.63613L12 13.5859L16.9497 8.63613C17.3403 8.24561 17.9734 8.24561 18.364 8.63613C18.7545 9.02666 18.7545 9.65982 18.364 10.0503L12.7071 15.7072Z"
+                                            fill="#748297"></path>
+                                    </svg></div>
+                            </div>
+
+                            <!-- Question Anwser Div -->
+                            <div
+                                class="question-anwser-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0 w-full text-gray-600 text-right text-base font-regular leading-6 mt-2">
+                                <div class="overflow-hidden">
+                                    <p>
+                                        وام شما بصورت اعتبار برای خرید کالا از فروشگاه آنلاین دیجی‌شهر قابل استفاده است.
+                                        لینک سایت فروشگاه:<a
+                                            href="https://dgshahr.com/shop">https://dgshahr.com/shop</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Question Div Container Col 4 -->
+                        <div onclick="faqOpen(this)"
+                            class="flex flex-col w-full items-center p-5 rounded-lg border border-primary-100">
+                            <!-- Question Header Div -->
+                            <div class="flex justify-between items-center cursor-pointer w-full">
+                                <h3
+                                    class="question-header font-regular text-base leading-6 sm:text-base desktop:text-base desktop:leading-7 text-gray-600">
+                                    سقف دریافت اعتبار چقدر است؟
+                                </h3>
+
+                                <div class="arrow-icon cursor-pointer transition-all duration-300 ease-in-out rotate-0">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.7071 15.7072C12.3166 16.0977 11.6834 16.0977 11.2929 15.7072L5.63604 10.0503C5.24551 9.65982 5.24551 9.02666 5.63604 8.63613C6.02656 8.24561 6.65973 8.24561 7.05025 8.63613L12 13.5859L16.9497 8.63613C17.3403 8.24561 17.9734 8.24561 18.364 8.63613C18.7545 9.02666 18.7545 9.65982 18.364 10.0503L12.7071 15.7072Z"
+                                            fill="#748297"></path>
+                                    </svg></div>
+                            </div>
+
+                            <!-- Question Anwser Div -->
+                            <div
+                                class="question-anwser-div grid overflow-hidden transition-all duration-300 ease-in-out grid-rows-[0fr] opacity-0 w-full text-gray-600 text-right text-base font-regular leading-6 mt-2">
+                                <div class="overflow-hidden">
+                                    <p>
+                                        میزان سقف دریافت وام به رتبه اعتباری، سابقه حساب بانکی و سوابق چک برگشتی بستگی
+                                        دارد. متقاضیان دارای رتبه‌ اعتباری A می‌توانند بدون نیاز به ضامن و فقط با ارائه
+                                        یک برگ چک، تا سقف ۱۲۰میلیون تومان وام کالا دریافت کنند. افراد دارای رتبه‌
+                                        اعتباری B، امکان دریافت وام با یک برگ چک تا سقف ۱۰۰میلیون تومان را دارند.
+                                        رتبه‌‌های اعتباری A و B می‌توانند برای دریافت وام تا سقف ۲۰۰میلیون تومان، ۲ برگ
+                                        چک (چک شخص + چک ضامن) یا یک گواهی کسر از حقوق را به‌عنوان ضمانت ارائه دهند.
+                                        <br>
+                                        رتبه‌های اعتباری C می‎توانند با ارائه دو برگ چک (شخص + ضامن) تا ۶۰میلیون تومان
+                                        وام خرید کالا دریافت کنند. افراد فاقد رتبه و دارای رتبه اعتباری C می‌توانند با
+                                        گواهی کسر از حقوق و یک برگ چک ضامن، تا ۱۰۰ میلیون تومان تسهیلات دریافت کنند.
+                                        <br>
+                                        افرادی که فاقد رتبه اعتباری هستند، با ارائه دو برگ چک (چک شخص + یک ضامن)
+                                        می‌توانند تا سقف ۱۰۰میلیون تومان وام دریافت کنند. همچنین این افراد می‌توانند
+                                        برای دریافت وام با یک چک صیادی تا ۶۰میلیون تومان اقدام کنند.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#"
+                        class="flex group flex-row justify-end items-center w-full text-primary-500 font-regular text-base">
+                        <span class="me-2">
+                            مشاهده همه سوالات
+                        </span>
+
+                        <span
+                            class="w-5 h-5 flex justify-center items-center group-hover:-translate-x-1 transition-all duration-100 ease-in translate-x-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24"
+                                fill="none">
+                                <path d="M15 6.5L9 12.5L15 18.5" stroke="#2852E4" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <footer class="bg-gray-100 border-t border-gray-200">
+                <div class="flex flex-col gap-8 desktop:px-[80px] lg:px-0 lg:mx-auto lg:max-w-maxSpace">
+                    <!-- Footer Header Div -->
+                    <div class="desktop:flex hidden justify-between items-center border-b border-gray-200 py-7">
+                        <!-- Logo Div -->
+                        <div class="block">
+                            <img width="150" height="80" class="mx-4 lg:me-4 text-transparent max-w-full h-auto"
+                                src="../Images/Logos/logo.webp" alt="dgshahr">
+                        </div>
+
+                        <div class="flex items-center justify-center gap-8">
+                            <div class="flex items-center justify-center gap-2">
+                                <div class="text-sm font-regular leading-normal text-right text-slate-600">تلفن پشتیبانی
+                                </div>
+
+                                <div
+                                    class="text-right text-base font-bold-yekan leading-7 text-slate-700 tracking-[3.20px]">
+                                    <a href="tel:021-91001022">
+                                        021-91001022
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center justify-center gap-8">
+                                <div class="flex items-center justify-center gap-2">
+                                    <a target="_blank" href="https://instagram.com/dgshahr">
+                                        <i class="ri-instagram-fill text-gray-400 text-3xl"></i>
+                                    </a>
+                                </div>
+                                <div class="flex items-center justify-center gap-2">
+                                    <a target="_blank" href="https://www.linkedin.com/company/dgshahr/">
+                                        <i class="ri-linkedin-box-fill text-gray-400 text-3xl"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col gap-8 border-b border-gray-200">
+                        <div class="flex desktop:flex-row flex-col gap-8 mb-8 ">
+                            <!-- Footer Items Div Section -->
+                            <div class="flex flex-col desktop:grow desktop:flex-row">
+                                <!-- Right Side Div Footer -->
+                                <div class="flex flex-col grow justify-stretch">
+                                    <ul class="list-none">
+                                        <div
+                                            class="flex flex-row gap-4 px-4 py-3 pt-5 text-sm font-bold leading-normal text-right grow text-slate-700">
+                                            با دیجی‌شهر
+                                        </div>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        درباره ما
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        فرصت های شغلی
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        تماس با ما
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        بلاگ
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        قوانین و مقررات
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        فروشنده شوید
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <!-- Left Side Div Footer -->
+                                <div class="flex flex-col grow justify-stretch">
+                                    <ul class="list-none">
+                                        <div
+                                            class="flex flex-row gap-4 px-4 py-3 pt-5 text-sm font-bold leading-normal text-right grow text-slate-700">
+                                            راهنما
+                                        </div>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        سوالات متداول
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        راهنمای دریافت وام دیجی‌شهر
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        محاسبه اقساط
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        شرایط دریافت وام
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="w-full" href="#">
+                                                <div class="px-4 py-2">
+                                                    <span
+                                                        class="text-sm font-normal leading-normal text-right text-slate-700">
+                                                        مدارک دریافت وام
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Footer Social Div Section Mobile -->
+                            <div class="w-full flex justify-center items-center desktop:hidden gap-6 px-4">
+                                <div class="flex items-center justify-center gap-2">
+                                    <a target="_blank" href="https://instagram.com/dgshahr">
+                                        <i class="ri-instagram-fill text-gray-500 text-3xl"></i>
+                                    </a>
+                                </div>
+
+                                <div class="flex items-center justify-center gap-2">
+                                    <a target="_blank" href="https://www.linkedin.com/company/dgshahr/">
+                                        <i class="ri-linkedin-box-fill text-gray-500 text-3xl"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Footer Contact Div Section Mobile -->
+                            <div class="flex justify-center items-center desktop:hidden gap-6 px-4">
+                                <div class="flex items-center gap-2">
+                                    <div class="text-right text-slate-600 text-[13px] font-regular leading-normal">تلفن پشتیبانی</div>
+
+                                    <div class="text-right text-slate-700 text-sm font-bold-yekan leading-normal tracking-[2.80px]">
+                                        <a href="tel:021-91001022">
+                                            021-91001022
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Logo Div Section -->
+                            <div
+                                class="flex desktop:grow items-center desktop:justify-end justify-center gap-3 desktop:pl-0 px-4">
+                                <div
+                                    class="items-center justify-center rounded-md border border-slate-200 gap-[5.48px]">
+                                    <a href="#">
+                                        <div class="flex h-20 w-20 items-center justify-center">
+                                            <img alt="up-line"
+                                                loading="lazy" width="80" height="80" decoding="async" data-nimg="1"
+                                                style="color:transparent"
+                                                src="../Images/Logos/Samandehi.svg">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div
+                                    class="items-center justify-center rounded-md border border-slate-200 gap-[5.48px]">
+                                    <a href="#">
+                                        <div class="flex h-20 w-20 items-center justify-center">
+                                            <img alt="up-line"
+                                                loading="lazy" width="80" height="80" decoding="async" data-nimg="1"
+                                                style="color:transparent" src="../Images/Logos/Enamad.svg">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div
+                                    class="items-center justify-center rounded-md border border-slate-200 gap-[5.48px]">
+                                    <a href="https://www.shahr-bank.ir/">
+                                        <div class="flex h-20 w-20 items-center justify-center">
+                                            <img alt="up-line"
+                                                loading="lazy" width="80" height="80" decoding="async" data-nimg="1"
+                                                style="color:transparent"
+                                                src="../Images/Logos/BankShahr.svg">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="App.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Dana';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/Dana-Regular.woff') format('woff'),
+         url('../font/DanaVF.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Dana';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/Dana-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'IranSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/IRANSansWeb_Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Iran-Yekan-Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/woff/iranyekanwebregularfanum.woff') format('woff'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/ttf/iranyekanwebregularfanum.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iran-Yekan-Bold';
+	font-style: normal;
+	font-weight: bold;
+ 	src: url('../font/woff/iranyekanwebboldfanum.woff') format('woff'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/ttf/iranyekanwebboldfanum.ttf') format('truetype');
+}
+
+.font-regular-yekan {
+	font-family: 'Iran-Yekan-Regular';
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.font-bold-yekan {
+	font-family: 'Iran-Yekan-Bold';
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.font-bold {
+    font-family: 'Dana';
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.font-regular {
+    font-family: 'Dana';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.font-light {
+    font-family: 'IranSans';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
